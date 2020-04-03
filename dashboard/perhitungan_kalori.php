@@ -45,9 +45,9 @@ if(isset($_POST['hitung'])){
             $TEE=$BMR*1.725;
             $TEEc=$TEE*1000;
         }
-        echo"Dengan Berat Badan Sebesar $bb Tinggi Badan Sebesar $tb"<br>;
-        echo"BMR Anda sebesar $BMR "<br>;
-        echo"Kebutuhan Kalori Harian Anda Adalah : $TEE kcals atau $TEEc cals"<br>;
+        echo"Dengan Berat Badan Sebesar $bb Tinggi Badan Sebesar $tb <br>";
+        echo"BMR Anda sebesar $BMR <br>";
+        echo"Kebutuhan Kalori Harian Anda Adalah : $TEE kcals atau $TEEc cals <br>";
         
     }
     else if($kelamin=="Laki"){
@@ -68,9 +68,9 @@ if(isset($_POST['hitung'])){
             $TEE=$BMR*1.725;
             $TEEc=$TEE*1000;
         }
-        echo"Dengan Berat Badan Sebesar $bb Tinggi Badan Sebesar $tb"<br>;
-        echo"BMR Anda sebesar $BMR "<br>;
-        echo"Kebutuhan Kalori Harian Anda Adalah : $TEE kcals atau $TEEc cals"<br>
+        echo"Dengan Berat Badan Sebesar $bb Tinggi Badan Sebesar $tb <br>";
+        echo"BMR Anda sebesar $BMR <br>";
+        echo"Kebutuhan Kalori Harian Anda Adalah : $TEE kcals atau $TEEc cals <br>";
     }
 }
 
