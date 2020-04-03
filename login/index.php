@@ -2,15 +2,11 @@
 //Pesan Notifikasi
 if (isset($_GET['pesan'])) {
 	if ($_GET['pesan'] == "gagal") {
-		echo "
-		<script type='text/javascript'>alert('Username & Password Anda Salah!');
-        history.back(self);
-        </script>";
+		echo "<script>alert('Username / Password salah')</script>";
 	} else if ($_GET['pesan'] == "logout") {
-		echo "
-		<script type='text/javascript'>alert('Anda telah berhasil logout');
-        history.back(self);
-        </script>";
+		echo "<script>alert('Logout Berhasil, Anda telah keluar')</script>";
+	} else if ($_GET['pesan'] == "daftarsukses") {
+		echo "<script>alert('Pendaftaran Berhasil, Silahkan login menggunakan akun yang telah dibuat')</script>";
 	}
 }
 ?>
@@ -86,6 +82,10 @@ if (isset($_GET['pesan'])) {
 					<div class="text-center p-t-90">
 						<a class="txt1" href="#">
 							Forgot Password?
+						</a>
+						<br>
+						<a class="txt1" href="../register">
+							Register
 						</a>
 					</div>
 				</form>

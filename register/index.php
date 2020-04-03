@@ -6,8 +6,9 @@
     <title>Form Input Data</title>
 
 </head>
+
 <body bgcolor="black" text="white">
-    <form method="post" action="cek_input.php">
+    <form method="post" action="cek_register.php">
         <table>
             <tr>
                 <td>Nama Lengkap</td>
@@ -65,6 +66,7 @@
                 </td>
             </tr>
         </table>
-    </form>    
+    </form>
 </body>
+
 </html>

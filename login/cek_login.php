@@ -1,18 +1,12 @@
 <?php
+
+include "../koneksi.php";
 // menangkap data yang dikirim dari form
 $username = $_POST['username'];
 $password = $_POST['password'];
 
 // mengaktifkan session php
 session_start();
-
-//Membuat koneksi database
-$koneksi = mysqli_connect("localhost", "root", "", "tubesdpplnew");
-
-// Check connection
-if (mysqli_connect_errno()) {
-	echo "Koneksi database gagal : " . mysqli_connect_error();
-}
 
 // menyeleksi data admin dengan username dan password yang sesuai
 $data = mysqli_query($koneksi, "select * from user where username='$username' and sandi='$password'");
