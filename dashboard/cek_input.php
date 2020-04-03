@@ -13,7 +13,7 @@ include 'koneksis.php';
 
 
 // menginput data ke database
-$data = mysqli_query($koneksi,"insert into mahasiswa values(NULL,'$names','$emails','$weight','$height','$age','$usernames','$passwords')");
+$data = mysqli_query($koneksi,"insert into user values(NULL,'$names','$emails','$weight','$height','$age','$usernames','$passwords')");
  
 
 if ($data) {
