@@ -1,0 +1,26 @@
+<?php 
+// koneksi database
+include '../koneksi.php';
+
+// menangkap data yang di kirim dari form
+$names   = $_POST['nama'];
+$weight  = $_POST['berat'];
+$calory = $_POST['kalori'];
+$units   = $_POST['unit']
+
+// menginput data ke database
+
+$data = mysqli_query($koneksi, "insert into food values(NULL,'$names','$weight','$calory','$units')");
+//$data = mysqli_query($koneksi, "insert into user values(NULL,'$username','$password','$nama','$email','$umur','$berat','$tinggi','')");
+
+
+
+if ($data) {
+    header("location:halaman_admin.php");
+}
+else{
+    echo "Gagal simpan data makanan";
+    exit;
+}
+
+?>

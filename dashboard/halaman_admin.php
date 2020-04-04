@@ -1,7 +1,5 @@
 <?php
 
-echo "halaman admin";
-
 session_start();
 if ($_SESSION['status'] != "login") {
     header("location:../login");
@@ -13,7 +11,7 @@ if ($_SESSION['status'] != "login") {
 <html>
 
 <head>
-    <title>WEB PERHITUNGAN BMI</title>
+    <title>HiHealth</title>
 </head>
 
 <body>
@@ -23,7 +21,8 @@ if ($_SESSION['status'] != "login") {
     <br />
     <table>
         <td><a href="logout.php">LOGOUT</a></td>
-        <!--<td><a href="menuperhitungan"-->
+        <td><a href="menu_data_user.php">Lihat Data Pengguna</a></td>
+        <td><a href="menu_data_food.php">Menu Data Makanan</a></td>
     </table>
 </body>
 
