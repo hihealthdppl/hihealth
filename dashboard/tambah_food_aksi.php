@@ -10,7 +10,7 @@ $units   = $_POST['unit']
 
 // menginput data ke database
 
-$data = mysqli_query($koneksi, "insert into food values(NULL,'$names','$weight','$calory','$units')");
+$data = mysqli_query($koneksi, "insert into makanan values(NULL,'$names','$weight','$calory','$units')");
 
 
 

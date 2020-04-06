@@ -4,7 +4,7 @@
 
 if (isset($_POST['submit'])) {
     // Input form
-    $nama      = $_POST['nama'];
+    
     $kelamin   = $_POST['kelamin'];
     $tb        = $_POST['tb']/100;
     $bb        = $_POST['bb'];

@@ -27,7 +27,6 @@
                     <select name="pemakan">
                         <option value="Vegetarian">Vegetarian</option>
                         <option value="NonVegetarian">Non Vegetarian</option>
-                        <option value="Semua">Pemakan Segala</option>
                     </select>
                 </td>
             </tr>

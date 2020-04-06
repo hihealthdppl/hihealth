@@ -17,9 +17,10 @@
 	<?php
         
         include '../koneksi.php';
-        //$id = $_GET['id'];
-        $data = mysqli_query($koneksi, "select * from user");
         
+        $data = mysqli_query($koneksi, "select * from user");
+		$id = $_GET['id'];
+		
         while ($d = mysqli_fetch_array($data)) {
 	?>
 		<form method="post" action="update.php">
