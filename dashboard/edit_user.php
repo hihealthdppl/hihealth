@@ -17,8 +17,8 @@
 	<?php
         
         include '../koneksi.php';
-        $id = $_GET['id'];
-        $data = mysqli_query($koneksi, "select * from user where id='$id'");
+        //$id = $_GET['id'];
+        $data = mysqli_query($koneksi, "select * from user");
         
         while ($d = mysqli_fetch_array($data)) {
 	?>

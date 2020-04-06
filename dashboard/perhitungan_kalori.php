@@ -49,7 +49,118 @@ if(isset($_POST['hitung'])){
         echo"BMR Anda sebesar $BMR <br>";
         echo"Kebutuhan Kalori Harian Anda Adalah : $TEE kcals atau $TEEc cals <br>";
         
+        if($pemakan=="NonVegetarian"){
+            if(1600<=$TEE<1800){
+                ?>
+                    <table>
+                        <th>Makan Pagi</th>
+                        <tr><?php echo"Makanan";?>
+                            <td><?php echo"Nasi Putih";?></td>
+                            <td><?php echo"Soto Ayam Kombinasi";?></td>
+                            <td><?php echo"Udang Rebus";?></td>
+                            <td><?php echo"Susu";?></td>
+                        </tr>
+                        <tr><?php echo"Berat";?>
+                            <td><?php echo"100 gram";?></td>
+                            <td><?php echo"100 gram";?></td>
+                            <td><?php echo"100 gram";?></td>
+                            <td><?php echo"250 ml";?></td>
+                            <td><?php echo"Jumlah";?></td>
+                        </tr>
+                        <tr><?php echo"Kalori";?>
+                            <td><?php echo"175";?></td>
+                            <td><?php echo"95";?></td>
+                            <td><?php echo"91";?></td>
+                            <td><?php echo"185";?></td>
+                            <td><?php echo"546";?></td>
+                        </tr>
+                    </table>
+                    <table>
+                        <th>Makan Siang</th>
+                        <tr><?php echo"Makanan";?>
+                            <td><?php echo"Nasi Putih";?></td>
+                            <td><?php echo"Tumis Buncis";?></td>
+                            <td><?php echo"Tahu";?></td>
+                            <td><?php echo"Telur Mata Sapi";?></td>
+                            <td><?php echo"Daging Sapi";?></td>
+                            <td><?php echo"Pisang";?></td>
+                        </tr>
+                        <tr><?php echo"Berat";?>
+                            <td><?php echo"100 gram";?></td>
+                            <td><?php echo"100 gram";?></td>
+                            <td><?php echo"100 gram";?></td>
+                            <td><?php echo"60 gram";?></td>
+                            <td><?php echo"100 gram";?></td>
+                            <td><?php echo"125 gram";?></td>
+                            <td><?php echo"Jumlah";?></td>
+                        </tr>
+                        <tr><?php echo"Kalori";?>
+                            <td><?php echo"175";?></td>
+                            <td><?php echo"52";?></td>
+                            <td><?php echo"147";?></td>
+                            <td><?php echo"110";?></td>
+                            <td><?php echo"180";?></td>
+                            <td><?php echo"120";?></td>
+                            <td><?php echo"784";?></td>
+                        </tr>
+                    </table>
+                    <table>
+                        <th>Makan Malam</th>
+                        <tr><?php echo"Makanan";?>
+                            <td><?php echo"Sup Jagung Rebus";?></td>
+                            <td><?php echo"Telur Rebus";?></td>
+                            <td><?php echo"Teh";?></td>
+                            <td><?php echo"Apel";?></td>
+                        </tr>
+                        <tr><?php echo"Berat";?>
+                            <td><?php echo"100 gram";?></td>
+                            <td><?php echo"60 gram";?></td>
+                            <td><?php echo"75 gram";?></td>
+                            <td><?php echo"160 gram";?></td>
+                            <td><?php echo"Jumlah";?></td>
+                        </tr>
+                        <tr><?php echo"Kalori";?>
+                            <td><?php echo"113";?></td>
+                            <td><?php echo"97";?></td>
+                            <td><?php echo"30";?></td>
+                            <td><?php echo"92";?></td>
+                            <td><?php echo"332";?></td>
+                            
+                        </tr>
+                    </table>
+                <?php
+            }
+            if(1800<=$TEE<2000){
+                ?>
+                    <table>
+                        <th>Makan Pagi</th>
+                        <tr><?php echo"Makanan";?></tr>
+                            <td><?php echo"Nasi Putih";?></td>
+                            <td><?php echo"Soto Ayam Kombinasi";?></td>
+                            <td><?php echo"Udang Rebus";?></td>
+                            <td><?php echo"Susu";?></td>
+                        </tr>
+                        <tr><?php echo"Berat";?></td>
+                            <td><?php echo"100 gram";?></td>
+                            <td><?php echo"100 gram";?></td>
+                            <td><?php echo"100 gram";?></td>
+                            <td><?php echo"250 ml";?></td>
+                            <td><?php echo"Jumlah";?></td>
+                        </tr>
+                        <tr><?php echo"Kalori";?></td>
+                            <td><?php echo"175";?></td>
+                            <td><?php echo"95";?></td>
+                            <td><?php echo"91";?></td>
+                            <td><?php echo"185";?></td>
+                            <td><?php echo"546";?></td>
+                        </tr>
+                    </table>
+                <?php
+            }
+        }
     }
+
+
     else if($kelamin=="Laki"){
         $BMR = 88.362+(13.397*$bb)+(4.799*$tb)-(5.677*$umur);
         if($kegiatan=="TidakAktif"){
