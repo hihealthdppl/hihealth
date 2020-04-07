@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Apr 04, 2020 at 12:03 PM
+-- Generation Time: Apr 07, 2020 at 02:31 PM
 -- Server version: 10.4.8-MariaDB
 -- PHP Version: 7.3.11
 
@@ -25,10 +25,10 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Table structure for table `food`
+-- Table structure for table `makanan`
 --
 
-CREATE TABLE `food` (
+CREATE TABLE `makanan` (
   `id` int(11) NOT NULL,
   `food` varchar(255) NOT NULL,
   `berat` int(255) NOT NULL,
@@ -37,10 +37,10 @@ CREATE TABLE `food` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
--- Dumping data for table `food`
+-- Dumping data for table `makanan`
 --
 
-INSERT INTO `food` (`id`, `food`, `berat`, `kalori`, `unit`) VALUES
+INSERT INTO `makanan` (`id`, `food`, `berat`, `kalori`, `unit`) VALUES
 (1, 'Jagung Rebus', 250, 90, 1);
 
 --
@@ -48,9 +48,9 @@ INSERT INTO `food` (`id`, `food`, `berat`, `kalori`, `unit`) VALUES
 --
 
 --
--- Indexes for table `food`
+-- Indexes for table `makanan`
 --
-ALTER TABLE `food`
+ALTER TABLE `makanan`
   ADD PRIMARY KEY (`id`);
 
 --
@@ -58,9 +58,9 @@ ALTER TABLE `food`
 --
 
 --
--- AUTO_INCREMENT for table `food`
+-- AUTO_INCREMENT for table `makanan`
 --
-ALTER TABLE `food`
+ALTER TABLE `makanan`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 COMMIT;
 
