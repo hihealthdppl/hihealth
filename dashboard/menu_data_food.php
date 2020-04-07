@@ -27,7 +27,7 @@
 		<?php
 		include '../koneksi.php';
 		$no = 1;
-		$data = mysqli_query($koneksi, "select * from food");
+		$data = mysqli_query($koneksi, "select * from makanan");
 		while ($d = mysqli_fetch_array($data)) {
 		?>
 			<tr>
