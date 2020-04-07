@@ -25,7 +25,8 @@
                 <td> : </td>
                 <td>
                     <select name="pemakan">
-                        <option value="Vegetarian">Vegetarian</option>
+                        <option value="LactoVegetarian">Lacto Vegetarian (Tidak makan daging,ikan,unggas dan telur namun masih mengonsumsi produk yang dihasilkan dari susu)</option>
+                        <option value="OvoVegetarian">Ovo Vegetarian (Tidak mengonsumsi daging,ikan,unggas dan produk susu, namun masih memperbolehkan konsumsi telur)</option>
                         <option value="NonVegetarian">Non Vegetarian</option>
                     </select>
                 </td>
