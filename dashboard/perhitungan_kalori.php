@@ -67,6 +67,9 @@ if (isset($_POST['hitung'])) {
         if($TEE>=2200 && $TEE<2600){
             include 'nonvegetarian_p2200.php';
         }
+        IF($TEE>=2600 && $TEE<=3000){
+            include 'nonvegetarian_p2600.php';
+        }
     } 
     
     else if ($kelamin == "Laki") {
