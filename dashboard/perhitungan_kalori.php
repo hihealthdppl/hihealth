@@ -55,11 +55,21 @@ if (isset($_POST['hitung'])) {
         echo "<br>";
         echo "<br>";
         if ($pemakan == "NonVegetarian") {
-?>
-            <a href="nonvegetarian.php">LIHAT SOLUSI MAKANAN</a>
-<?php
+            if($TEE>=1600 && $TEE<1800){
+                include 'nonvegetarian_p1600.php';
         }
-    } else if ($kelamin == "Laki") {
+        if($TEE>=1800 && $TEE<2000){  
+            include 'nonvegetarian_p1800.php';
+        }
+        if($TEE>=2000 $$ $TEE<2200){
+            include 'nonvegetarian_p2000.php';
+        }
+        if($TEE>=2200 && $TEE<2600){
+            include 'nonvegetarian_p2200.php';
+        }
+    } 
+    
+    else if ($kelamin == "Laki") {
         $BMR = 88.362 + (13.397 * $bb) + (4.799 * $tb) - (5.677 * $umur);
 
         if ($kegiatan == "TidakAktif") {
@@ -88,10 +98,5 @@ if (isset($_POST['hitung'])) {
         echo "<br>";
         echo "<br>";
     }
-}
-
-if ($TEE >= 1600 && $TEE < 1800) {
-    include "nonvegetarian.php";
-}
-
+}}
 ?>
