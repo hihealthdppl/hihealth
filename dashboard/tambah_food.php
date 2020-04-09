@@ -20,7 +20,7 @@
 				<td><input type="text" name="nama"></td>
 			</tr>
 			<tr>
-				<td>Berat (gr)</td>
+				<td>Berat</td>
 				<td><input type="number" name="berat"></td>
 			</tr>
 			<tr>

@@ -17,11 +17,11 @@
 	<table border="1">
 		<tr>
 			<th>NO</th>
-			<th>NAMA MAKANAN</th>
-            <th>BERAT(gr)</th>
-            <th>Kalori</th>
-            <th>Unit</th>
-			<th>OPTION</th>
+			<th> NAMA MAKANAN </th>
+            <th> BERAT </th>
+            <th> KALORI </th>
+            <th> UNIT </th>
+			<th> OPTION </th>
 		</tr>
 
 		<?php
@@ -35,7 +35,7 @@
 				<td><?php echo $d['food']; ?></td>
 				<td><?php echo $d['berat']; ?></td>
 				<td><?php echo $d['kalori']; ?></td>
-                <td><?php echo $d['unit']; ?></td>
+                <td><?php echo $d['satuan']; ?></td>
 				<td>
 					<a href="hapus_food.php?id=<?php echo $d['id']; ?>">HAPUS</a>
                     <a href="edit_food.php?id=<?php echo $d['id']; ?>">EDIT</a>

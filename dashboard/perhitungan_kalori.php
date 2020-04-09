@@ -57,20 +57,31 @@ if (isset($_POST['hitung'])) {
         if ($pemakan == "NonVegetarian") {
             if($TEE>=1600 && $TEE<1800){
                 include 'nonvegetarian_p1600.php';
+            }
+            if($TEE>=1800 && $TEE<2000){  
+                include 'nonvegetarian_p1800.php';
+            }
+            if($TEE>=2000 && $TEE<2200){
+                include 'nonvegetarian_p2000.php';
+            }
+            if($TEE>=2200 && $TEE<2600){
+                include 'nonvegetarian_p2200.php';
+            }
+            if($TEE>=2600 && $TEE<=3000){
+                include 'nonvegetarian_p2600.php';
+            }
         }
-        if($TEE>=1800 && $TEE<2000){  
-            include 'nonvegetarian_p1800.php';
+        if ($pemakan == "OvoVegetarian") {
+            if($TEE>=1300 && $TEE<1600){
+                include 'ovovegetarian_p1300.php';
+            }
+            if($TEE>=1600 && $TEE<1900){
+                include 'ovovegetarian_p1600.php';
+            }
+            if($TEE>=1900 && $TEE<2200){
+                include 'ovovegetarian_p1900.php';
+            }
         }
-        if($TEE>=2000 $$ $TEE<2200){
-            include 'nonvegetarian_p2000.php';
-        }
-        if($TEE>=2200 && $TEE<2600){
-            include 'nonvegetarian_p2200.php';
-        }
-        IF($TEE>=2600 && $TEE<=3000){
-            include 'nonvegetarian_p2600.php';
-        }
-    } 
     
     else if ($kelamin == "Laki") {
         $BMR = 88.362 + (13.397 * $bb) + (4.799 * $tb) - (5.677 * $umur);
