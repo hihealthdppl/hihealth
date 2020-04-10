@@ -28,8 +28,8 @@ if ($_SESSION['status'] != "login") {
 		<td></td>
 		<td><a href="menu_perhitungan.php">MENU PERHITUNGAN BMI</a></td>
 		<td><a href="menu_kalori.php">MENU PERHITUNGAN KALORI MAKANAN</a>
+		<td><a href="data_food.php">MENU DAFTAR MAKANAN DAN KALORI</a>
 		<td><a href="edit_user.php">EDIT PROFILE</a>
-		<td>
 	</table>
 </body>
 

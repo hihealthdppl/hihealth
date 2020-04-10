@@ -54,6 +54,7 @@ if (isset($_POST['hitung'])) {
         echo "<br>";
         echo "<br>";
         echo "<br>";
+
         if ($pemakan == "NonVegetarian") {
             if($TEE>=1600 && $TEE<1800){
                 include 'nonvegetarian_p1600.php';
@@ -81,8 +82,31 @@ if (isset($_POST['hitung'])) {
             if($TEE>=1900 && $TEE<2200){
                 include 'ovovegetarian_p1900.php';
             }
+            if($TEE>=2200 && $TEE<2700){
+                include 'ovovegetarian_p2200.php';
+            }
+            if($TEE>=2700 && $TEE<=3000){
+                include 'ovovegetarian_p2700.php';
+            }
         }
-    
+        if($pemakan == "LactoVegetarian"){
+            if($TEE>=1300 && $TEE<1600){
+                include 'lactoovo_p1300.php';
+            }
+            if($TEE>=1600 && $TEE<1900){
+                include 'lactoovo_p1600.php';
+            }
+            if($TEE>=1900 && $TEE<2200){
+                include 'lactoovo_p1900.php';
+            }
+            if($TEE>=2200 && $TEE<2700){
+                include 'lactoovo_p2200.php';
+            }
+            if($TEE>=2700 && $TEE<3000){
+                include 'lactoovo_p2700.php';
+            }
+        }
+    }
     else if ($kelamin == "Laki") {
         $BMR = 88.362 + (13.397 * $bb) + (4.799 * $tb) - (5.677 * $umur);
 
@@ -111,6 +135,60 @@ if (isset($_POST['hitung'])) {
         echo "<br>";
         echo "<br>";
         echo "<br>";
+
+        if ($pemakan == "NonVegetarian") {
+            if($TEE>=1600 && $TEE<1800){
+                include 'nonvegetarian_l1600.php';
+            }
+            if($TEE>=1800 && $TEE<2000){  
+                include 'nonvegetarian_l1800.php';
+            }
+            if($TEE>=2000 && $TEE<2200){
+                include 'nonvegetarian_l2000.php';
+            }
+            if($TEE>=2200 && $TEE<2700){
+                include 'nonvegetarian_l2400.php';
+            }
+            if($TEE>=2700 && $TEE<=3100){
+                include 'nonvegetarian_l2700.php';
+            }
+        }
+        if ($pemakan == "OvoVegetarian") {
+            if($TEE>=1300 && $TEE<1600){
+                include 'ovovegetarian_l1300.php';
+            }
+            if($TEE>=1600 && $TEE<1900){
+                include 'ovovegetarian_l1600.php';
+            }
+            if($TEE>=1900 && $TEE<2200){
+                include 'ovovegetarian_l1900.php';
+            }
+            if($TEE>=2200 && $TEE<2700){
+                include 'ovovegetarian_l2200.php';
+            }
+            if($TEE>=2700 && $TEE<=3000){
+                include 'ovovegetarian_l2700.php';
+            }
+        }
+        if($pemakan == "LactoVegetarian"){
+            if($TEE>=1300 && $TEE<1600){
+                include 'lactoovo_l1300.php';
+            }
+            if($TEE>=1600 && $TEE<1900){
+                include 'lactoovo_l1600.php';
+            }
+            if($TEE>=1900 && $TEE<2200){
+                include 'lactoovo_l1900.php';
+            }
+            if($TEE>=2200 && $TEE<2700){
+                include 'lactoovo_l2200.php';
+            }
+            if($TEE>=2700 && $TEE<3000){
+                include 'lactoovo_l2700.php';
+            }
+        }
+
+
     }
-}}
+}
 ?>
