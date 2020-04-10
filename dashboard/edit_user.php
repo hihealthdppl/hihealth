@@ -24,7 +24,7 @@
 
 	while ($d = mysqli_fetch_array($data)) {
 	?>
-		<form method="post" action="update.php">
+		<form method="post" action="update_user.php">
 			<table>
 				<tr>
 					<td>Nama</td>
@@ -57,6 +57,9 @@
 					<td>Umur</td>
 					<td><input type="number" name="ages" value="<?php echo $d['umur']; ?>"></td>
 				</tr>
+				<td>
+						<input type="hidden" name="levels" value="<?php echo $d['level']=="user"; ?>">
+					</td>
 				<tr>
 					<td></td>
 					<td><input type="submit" value="SIMPAN"></td>

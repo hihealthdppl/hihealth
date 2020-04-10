@@ -11,10 +11,11 @@ $mail       = $_POST['emails'];
 $height     = $_POST['tb'];
 $weight     = $_POST['bb'];
 $age        = $_POST['ages'];
+$level      = $_POST['levels'];
 
 
 // update data ke database
-mysqli_query($koneksi,"update user set 
+$check = mysqli_query($koneksi,"update user set 
     username='$un',
     sandi='$passwords',
     nama='$names',
@@ -22,9 +23,18 @@ mysqli_query($koneksi,"update user set
     umur='$age',
     beratbadan='$weight',
     tinggibadan='$height',
+    level='$level'
     where id='$id'");
 
 // mengalihkan halaman kembali ke index.php
-header("location:index.php");
+
+if($check > 0){
+    echo "
+            <script>
+            alert('Data berhasil diubah');
+            document.location.href='index.php';
+            </script>
+        ";
+}
 
 ?>
