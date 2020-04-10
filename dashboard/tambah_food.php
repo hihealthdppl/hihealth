@@ -12,7 +12,7 @@
 	<a href="halaman_admin.php">KEMBALI</a>
 	<br />
 	<br />
-	<h3>TAMBAH DATA MAHASISWA</h3>
+	<h3>TAMBAH DATA MAKANAN</h3>
 	<form method="post" action="tambah_food_aksi.php">
 		<table>
 			<tr>
