@@ -7,7 +7,7 @@
 
 <body>
 
-	<h2>DATA MAHASISWA</h2>
+	<h2>DATA PENGGUNNA WEB HiHealth</h2>
 	<br />
 	<a href="index.php">KEMBALI</a>
 	<br />
@@ -57,15 +57,14 @@
 					<td>Umur</td>
 					<td><input type="number" name="ages" value="<?php echo $d['umur']; ?>"></td>
 				</tr>
-				<td>
-						<input type="hidden" name="levels" value="<?php echo $d['level']=="user"; ?>">
+					<td>
+						<input type="hidden" name="levels" value="<?php echo $d['level']; ?>">
 					</td>
 				<tr>
 					<td></td>
 					<td><input type="submit" value="SIMPAN"></td>
 				</tr>
 			</table>
-		</form>
 	<?php
 	}
 	?>
@@ -73,3 +72,8 @@
 </body>
 
 </html>
+
+
+
+    
+
