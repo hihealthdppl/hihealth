@@ -7,7 +7,7 @@
 
 <body>
 
-	<h2>DATA MAHASISWA</h2>
+	<h2>DATA MAKANAN BESERTA KALORI</h2>
 	<br />
 	<a href="menu_data_food.php">KEMBALI</a>
 	<br />
