@@ -24,11 +24,11 @@ if ($cek > 0) {
 		$_SESSION['status'] = "login";
 		$_SESSION['level'] = "admin";
 		// alihkan ke halaman dashboard admin
-		header("location:../dashboard/halaman_admin.php");
+		header("location:../admin");
 	} else {
 		$_SESSION['username'] = $username;
 		$_SESSION['status'] = "login";
-		header("location:../dashboard");
+		header("location:../user");
 	}
 } else {
 	//mengalihkan ke halaman login kembali
