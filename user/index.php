@@ -67,7 +67,7 @@ if ($_SESSION['status'] != "login") {
                                     <ul id="navigation">    
                                         <li><a href="../perhitungan_bmi/menu_perhitungan.php">Perhitungan BMI</a></li>
                                         <li><a href="../perhitungan_kalori/menu_perhitungank.php">Perhitungan Kalori</a></li>
-                                        <li><a href="../daftar makanan/index.php">Daftar Makanan dan Kalori</a></li>
+                                        <li><a href="#">Daftar Makanan dan Kalori</a></li>
                                         <li><a href="edit_profile.php">Edit Profile</a></li>
                                     </ul>
                                 </nav>
@@ -271,7 +271,7 @@ if ($_SESSION['status'] != "login") {
                     <div class="row d-flex justify-content-center">
                         <div class="col-lg-5  col-md-8 pr-0">
                             <div class="section-tittle text-center">
-                                <h2>What Client Say About Us</h2>
+                                <h2>Yuk Lihat Dulu</h2>
                             </div>
                         </div>
                     </div>
@@ -282,16 +282,15 @@ if ($_SESSION['status'] != "login") {
                                     <div class="single-testimonial text-center">
                                         <div class="testimonial-caption ">
                                             <div class="testimonial-top-cap">
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+                                                <p>Jaga tubuhmu. Itulah satu-satunya tempat yang kamu miliki untuk hidup.</p>
                                             </div>
                                             <!-- founder -->
                                             <div class="testimonial-founder d-flex align-items-center justify-content-center">
                                                 <div class="founder-img">
-                                                    <img src="assets/img/testmonial/testimonial.png" alt="">
+                                                    <img src="assets/img/testmonial/testimonials.png" alt="">
                                                 </div>
                                             <div class="founder-text">
-                                                <span>Oliva jems</span>
-                                                <p>UIX designer</p>
+                                                <span>Jim Rohn</span>
                                             </div>
                                             </div>
                                         </div>

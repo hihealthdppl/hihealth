@@ -83,7 +83,6 @@ https://www.tooplate.com/view/2118-chilling-cafe
           </div>
         </section>
         <hr />
-        
       </div>
     </div>
     <script src="js/jquery-3.4.1.min.js"></script>

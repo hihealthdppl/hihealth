@@ -7,24 +7,23 @@ $id = $_GET['id'];
  
  
 // menghapus data dari database
-$data = mysqli_query($koneksi,"delete from makanan where id='$id'");
+$data = mysqli_query($koneksi,"delete from user where id='$id'");
  
 // mengalihkan halaman kembali ke index.php
 
 if ($data) {
     echo "
             <script>
-            alert('Data berhasil ditambahkan');
-            document.location.href='index.php';
+            alert('Data berhasil dihapus');
+            document.location.href='data_user.php';
             </script>
         ";
 }
 else{
     echo "
         <script>
-        alert('Gagal simpan data makanan');
+        alert('Gagal Hapus Data');
         </script>";
     exit;
 }
-
 ?>

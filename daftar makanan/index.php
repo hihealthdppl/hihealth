@@ -70,7 +70,7 @@ https://www.tooplate.com/view/2118-chilling-cafe
                 <td><?php echo $d['satuan']; ?></td>
 				        <td>
 					          <a href="hapus_food.php?id=<?php echo $d['id']; ?>">HAPUS</a>
-                    <a href="edit_food.php?id=<?php echo $d['id']; ?>">EDIT</a>
+                    <a href="../edit_food/index.php?id=<?php echo $d['id']; ?>">EDIT</a>
                 </td>
               </tr>
               <?php
@@ -85,6 +85,7 @@ https://www.tooplate.com/view/2118-chilling-cafe
           <div class="tm-responsive-table">
             <table>
               <tr class="tm-tr-header">
+                <th> NO </th>
                 <th> NAMA MAKANAN </th>
                 <th> BERAT </th>
                 <th> KALORI </>
@@ -93,12 +94,14 @@ https://www.tooplate.com/view/2118-chilling-cafe
 			          <th> OPTION </th>
               </tr>
               <?php
-		            include '../koneksi.php';
+                include '../koneksi.php';
+                $num=1;
 		            $data = mysqli_query($koneksi, "select * from makanan");
 		            while ($d = mysqli_fetch_array($data)) {
                   if($d['jenis'] == "minuman"){
 		          ?>
               <tr>
+                <td><?php echo $num++; ?></>
                 <td><?php echo $d['food']; ?></td>
 				        <td><?php echo $d['berat']; ?></td>
 				        <td><?php echo $d['kalori']; ?></td>
@@ -106,7 +109,7 @@ https://www.tooplate.com/view/2118-chilling-cafe
                 <td><?php echo $d['jenis']; ?></td>
 				        <td>
 					          <a href="hapus_food.php?id=<?php echo $d['id']; ?>">HAPUS</a>
-                    <a href="edit_food.php?id=<?php echo $d['id']; ?>">EDIT</a>
+                    <a href="../edit_food/index.php?id=<?php echo $d['id']; ?>">EDIT</a>
                 </td>
               </tr>
               <?php
@@ -116,6 +119,14 @@ https://www.tooplate.com/view/2118-chilling-cafe
         </section>
         <hr />
       </div>
+
+      <footer>
+        <p class="tm-text-white tm-footer-text" style="font-size: 40px; font-family:Noto Sans; font-style=normal; font-weight=bold">
+          INGIN MENAMBAHKAN DATA MAKANAN ? KLIK DISINI
+          <p class="tm-text-white tm-footer-text" style="font-size: 40px; font-family:Noto Sans; font-style=normal; font-weight=bold"><a href="../tambah_food/index.php" class="tm-footer-link">Tambah Data Makanan</a></p>
+        </p>
+      </footer>      
+
     </div>
     <script src="js/jquery-3.4.1.min.js"></script>
     <script>

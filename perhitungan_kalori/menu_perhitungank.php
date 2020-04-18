@@ -137,31 +137,31 @@
     		<div class="row">
           <div class="col-md-4 d-flex services align-self-stretch px-4 ftco-animate">
             <div class="d-block services-wrap text-center">
-              <div class="img" style="background-image: url(images/services-1.jpg);"></div>
+              <div class="img" style="background-image: url(images/s1.jpg);"></div>
               <div class="media-body py-4 px-3">
-                <h3 class="heading">Map Direction</h3>
-                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
-                <p><a href="#" class="btn btn-primary">Read more</a></p>
+                <h3 class="heading">Perhitungan BMI</h3>
+                <p>Yuk ketahui Berat Badan Ideal Mu Dengan Mengitung BMI Kamu Disini !</p>
+                <p><a href="../perhitungan_bmi/menu_perhitungan.php" class="btn btn-primary">Ayo Hitung</a></p>
               </div>
             </div>      
           </div>
           <div class="col-md-4 d-flex services align-self-stretch px-4 ftco-animate">
             <div class="d-block services-wrap text-center">
-              <div class="img" style="background-image: url(images/services-2.jpg);"></div>
+              <div class="img" style="background-image: url(images/s2.jpg);"></div>
               <div class="media-body py-4 px-3">
-                <h3 class="heading">Accomodation Services</h3>
-                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
-                <p><a href="#" class="btn btn-primary">Read more</a></p>
+                <h3 class="heading">Daftar Kalori Makanan dan Minuman</h3>
+                <p>Yuk Kita Lihat Jumlah Kalori Yang Ada Di Makanan dan Minuman Kita Setiap Hari !</p>
+                <p><a href="#" class="btn btn-primary">Ayo Lihat</a></p>
               </div>
             </div>    
           </div>
           <div class="col-md-4 d-flex services align-self-stretch px-4 ftco-animate">
             <div class="d-block services-wrap text-center">
-              <div class="img" style="background-image: url(images/services-3.jpg);"></div>
+              <div class="img" style="background-image: url(images/s3.jpg);"></div>
               <div class="media-body py-4 px-3">
-                <h3 class="heading">Great Experience</h3>
-                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
-                <p><a href="#" class="btn btn-primary">Read more</a></p>
+                <h3 class="heading">Edit Profile</h3>
+                <p>Yuk Edit Profile Kalian Agar Data Kalian Terupdate !</p>
+                <p><a href="../user/edit_profile.php" class="btn btn-primary">Yuk Update</a></p>
               </div>
             </div>      
           </div>
@@ -259,27 +259,25 @@
 			<div class="container">
 				<div class="row no-gutters">
 					<div class="col-md-6 wrap-about">
-						<div class="img img-2 mb-4" style="background-image: url(images/about.jpg);">
+						<div class="img img-2 mb-4" style="background-image: url(images/abouts.jpg);">
 						</div>
-						<h2>The most recommended vacation rental</h2>
-						<p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth. Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
 					</div>
 					<div class="col-md-6 wrap-about ftco-animate">
 	          <div class="heading-section">
 	          	<div class="pl-md-5">
-		            <h2 class="mb-2">What we offer</h2>
+		            <h2 class="mb-2">Tips and Tricks</h2>
 	            </div>
 	          </div>
 	          <div class="pl-md-5">
-							<p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+							<p>Kita akan memberikan beberapa tips untuk anda mengenai kesehatan</p>
 							<div class="row">
 		            <div class="services-2 col-lg-6 d-flex w-100">
 		              <div class="icon d-flex justify-content-center align-items-center">
 		            		<span class="flaticon-diet"></span>
 		              </div>
 		              <div class="media-body pl-3">
-		                <h3 class="heading">Tea Coffee</h3>
-		                <p>A small river named Duden flows by their place and supplies it with the necessary</p>
+		                <h3 class="heading">4 Sehat 5 Sempurna</h3>
+		                <p>Mulailah konsumsi makanan yang mengandung unsur 4 sehat 5 sempurna</p>
 		              </div>
 		            </div> 
 		            <div class="services-2 col-lg-6 d-flex w-100">
@@ -287,8 +285,8 @@
 		            		<span class="flaticon-workout"></span>
 		              </div>
 		              <div class="media-body pl-3">
-		                <h3 class="heading">Hot Showers</h3>
-		                <p>A small river named Duden flows by their place and supplies it with the necessary</p>
+		                <h3 class="heading">Istirahat Yang Cukup</h3>
+		                <p>Orang dewasa membutuhkan 7-8 jam untuk tidur sehingga menciptakan tubuh yang sehat</p>
 		              </div>
 		            </div>
 		            <div class="services-2 col-lg-6 d-flex w-100">
@@ -296,8 +294,8 @@
 		            		<span class="flaticon-diet-1"></span>
 		              </div>
 		              <div class="media-body pl-3">
-		                <h3 class="heading">Laundry</h3>
-		                <p>A small river named Duden flows by their place and supplies it with the necessary</p>
+		                <h3 class="heading">Makan Yang Teratur</h3>
+		                <p>Kita Dianjurkan Makan 3x Sehari Agar Tubuh Tidak Kekurangan Nutrisi</p>
 		              </div>
 		            </div>      
 		            <div class="services-2 col-lg-6 d-flex w-100">
@@ -305,45 +303,10 @@
 		            		<span class="flaticon-first"></span>
 		              </div>
 		              <div class="media-body pl-3">
-		                <h3 class="heading">Air Conditioning</h3>
-		                <p>A small river named Duden flows by their place and supplies it with the necessary</p>
+		                <h3 class="heading">Olahraga Teratur</h3>
+		                <p>Untuk Membuat Tubuh Mu Tetap Segar dan Fit, Jangan Lupa Berolahraga</p>
 		              </div>
 		            </div>
-		            <div class="services-2 col-lg-6 d-flex w-100">
-		              <div class="icon d-flex justify-content-center align-items-center">
-		            		<span class="flaticon-first"></span>
-		              </div>
-		              <div class="media-body pl-3">
-		                <h3 class="heading">Free Wifi</h3>
-		                <p>A small river named Duden flows by their place and supplies it with the necessary</p>
-		              </div>
-		            </div> 
-		            <div class="services-2 col-lg-6 d-flex w-100">
-		              <div class="icon d-flex justify-content-center align-items-center">
-		            		<span class="flaticon-first"></span>
-		              </div>
-		              <div class="media-body pl-3">
-		                <h3 class="heading">Kitchen</h3>
-		                <p>A small river named Duden flows by their place and supplies it with the necessary</p>
-		              </div>
-		            </div> 
-		            <div class="services-2 col-lg-6 d-flex w-100">
-		              <div class="icon d-flex justify-content-center align-items-center">
-		            		<span class="flaticon-first"></span>
-		              </div>
-		              <div class="media-body pl-3">
-		                <h3 class="heading">Ironing</h3>
-		                <p>A small river named Duden flows by their place and supplies it with the necessary</p>
-		              </div>
-		            </div> 
-		            <div class="services-2 col-lg-6 d-flex w-100">
-		              <div class="icon d-flex justify-content-center align-items-center">
-		            		<span class="flaticon-first"></span>
-		              </div>
-		              <div class="media-body pl-3">
-		                <h3 class="heading">Lovkers</h3>
-		                <p>A small river named Duden flows by their place and supplies it with the necessary</p>
-		              </div>
 		            </div>
 		          </div>  
 						</div>

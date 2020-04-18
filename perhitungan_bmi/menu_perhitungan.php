@@ -78,7 +78,6 @@
 	          					<div class="select-wrap">
 	                      <div class="icon"><span class="fa fa-chevron-down"></span></div>
 	                      <select name="kelamin" class="form-control">
-	                      	<option value="">Jenis kelamin</option>
 	                        <option value="Laki-laki">Laki-laki</option>
 	                        <option value="Perempuan">Perempuan</option>
 	                      </select>
