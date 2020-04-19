@@ -322,48 +322,16 @@ if (isset($_POST['hitung'])) {
                                         <div class="single_our_depertment">
                                             <span class="our_depertment_icon"><img src="img/icon/feature_2.svg"
                                                     alt=""></span>
-                                            <h4>BMI < 18.5</h4>
-                                            <p>Mengalami kekurangan Gizi</p>
+                                            <h4>Makan Siang</h4>
+                                            <p style="font-size: 22px; font-family:Noto Sans; font-style=normal; font-weight=bold"><?php echo"$hasil"?></p>
                                         </div>
                                     </div>
                                     <div class="col-lg-6 col-sm-6">
                                         <div class="single_our_depertment">
                                             <span class="our_depertment_icon"><img src="img/icon/feature_2.svg"
                                                     alt=""></span>
-                                            <h4>BMI < 25</h4>
-                                            <p>Memiliki Berat Badan Yang Normal</p>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-6 col-sm-6">
-                                        <div class="single_our_depertment">
-                                            <span class="our_depertment_icon"><img src="img/icon/feature_2.svg"
-                                                    alt=""></span>
-                                            <h4>BMI < 30</h4>
-                                            <p>Mengalami Overweight</p>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-6 col-sm-6">
-                                        <div class="single_our_depertment">
-                                            <span class="our_depertment_icon"><img src="img/icon/feature_2.svg"
-                                                    alt=""></span>
-                                            <h4>BMI < 35</h4>
-                                            <p>Mengalami Obesitas Level 1</p>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-6 col-sm-6">
-                                        <div class="single_our_depertment">
-                                            <span class="our_depertment_icon"><img src="img/icon/feature_2.svg"
-                                                    alt=""></span>
-                                            <h4>BMI < 40</h4>
-                                            <p>Mengalami Obesitas Level 2</p>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-6 col-sm-6">
-                                        <div class="single_our_depertment">
-                                            <span class="our_depertment_icon"><img src="img/icon/feature_2.svg"
-                                                    alt=""></span>
-                                            <h4>BMI > 40</h4>
-                                            <p>Mengalami Obesitas Akut</p>
+                                            <h4>Makan Malam</h4>
+                                            <p style="font-size: 22px; font-family:Noto Sans; font-style=normal; font-weight=bold"><?php echo"$hasil"?></p>
                                         </div>
                                     </div>
                                 </div>
