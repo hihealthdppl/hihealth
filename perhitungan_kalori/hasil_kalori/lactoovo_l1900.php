@@ -1,3 +1,20 @@
+<?php
+function pilih($pilihan)
+{
+    if ($pilihan == "pagi") {
+        echo pagi();
+    }
+    if ($pilihan == "siang") {
+        echo siang();
+    }
+    if ($pilihan == "malam") {
+        echo malam();
+    }
+}
+function pagi()
+{
+?>
+
 <table border=1>
         <tr>
             <th colspan="3"><?php echo "Makan Pagi" ?></th>
@@ -28,8 +45,12 @@
             <td><?php echo "185"?></td>
         </tr>
     </table>
-    <?php echo "<br>";
-        echo "<br>"; ?>
+<?php
+}
+
+function siang()
+{
+?>
     <table border=1>
         <tr>
             <th colspan="3"><?php echo "Makan Siang" ?></th>
@@ -61,8 +82,11 @@
         </tr>
         
     </table>
-    <?php echo "<br>";
-        echo "<br>"; ?>
+<?php
+}
+function malam()
+{
+?>
     <table border=1>
         <tr>
             <th colspan="3"><?php echo "Makan Malam"?></th>
@@ -94,3 +118,7 @@
         </tr>
         
     </table>
+<?php
+}
+
+?>

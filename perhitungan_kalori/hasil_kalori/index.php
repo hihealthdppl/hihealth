@@ -310,30 +310,21 @@ if (isset($_POST['hitung'])) {
                                         <div class="single_our_depertment">
                                             <span class="our_depertment_icon"><img src="img/icon/feature_2.svg" alt=""></span>
                                             <h4>Makan Pagi</h4>
-                                            <p style="font-size: 22px; font-family:Noto Sans; font-style=normal; font-weight=bold"><?php
-                                                                                                                                    include "lactoovo_l1300.php";
-                                                                                                                                    pilih("pagi");
-                                                                                                                                    ?></p>
+                                            <p style="font-size: 22px; font-family:Noto Sans; font-style=normal; font-weight=bold"><?php pilih("pagi");?></p>
                                         </div>
                                     </div>
                                     <div class="col-lg-6 col-sm-6">
                                         <div class="single_our_depertment">
                                             <span class="our_depertment_icon"><img src="img/icon/feature_2.svg" alt=""></span>
                                             <h4>Makan Siang</h4>
-                                            <p style="font-size: 22px; font-family:Noto Sans; font-style=normal; font-weight=bold"><?php
-                                                                                                                                    //include "lactoovo_l1300.php";
-                                                                                                                                    pilih("siang");
-                                                                                                                                    ?></p>
+                                            <p style="font-size: 22px; font-family:Noto Sans; font-style=normal; font-weight=bold"><?php pilih("siang");?></p>
                                         </div>
                                     </div>
                                     <div class="col-lg-6 col-sm-6">
                                         <div class="single_our_depertment">
                                             <span class="our_depertment_icon"><img src="img/icon/feature_2.svg" alt=""></span>
                                             <h4>Makan Malam</h4>
-                                            <p style="font-size: 22px; font-family:Noto Sans; font-style=normal; font-weight=bold"><?php
-                                                                                                                                    //include "lactoovo_l1300.php";
-                                                                                                                                    pilih("malam");
-                                                                                                                                    ?></p>
+                                            <p style="font-size: 22px; font-family:Noto Sans; font-style=normal; font-weight=bold"><?php pilih("malam");?></p>
                                         </div>
                                     </div>
                                 </div>
