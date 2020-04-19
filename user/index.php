@@ -298,16 +298,15 @@ if ($_SESSION['status'] != "login") {
                                     <div class="single-testimonial text-center">
                                         <div class="testimonial-caption ">
                                             <div class="testimonial-top-cap">
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+                                                <p>Kesehatan adalah renungan yang pertama dan tidur adalah syarat untuk mendapatkannya.</p>
                                             </div>
                                             <!-- founder -->
                                             <div class="testimonial-founder d-flex align-items-center justify-content-center">
                                                 <div class="founder-img">
-                                                    <img src="assets/img/testmonial/testimonial.png" alt="">
+                                                    <img src="assets/img/testmonial/testimonials.png" alt="">
                                                 </div>
                                             <div class="founder-text">
-                                                <span>Oliva jems</span>
-                                                <p>UIX designer</p>
+                                                <span>Raplph Waldo Emerson</span>
                                             </div>
                                             </div>
                                         </div>
