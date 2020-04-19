@@ -162,7 +162,7 @@ if ($_SESSION['status'] != "login") {
                                 <p>Yuk Buruan Cek BMR dan Kebutuhan Kalori Mu Setiap Harinya Sekarang Juga !</p>
                             </div>
                             <div class="do-btn">
-                                <a href="#"><i class="ti-arrow-right"></i> ayo hitung</a>
+                                <a href="../perhitungan_kalori/menu_perhitungank.php"><i class="ti-arrow-right"></i> ayo hitung</a>
                             </div>
                         </div>
                     </div>
@@ -177,7 +177,7 @@ if ($_SESSION['status'] != "login") {
                                 <p>Yuk Buruan Cek BMI Mu Sekarang Juga Untuk Mengetahui Berat Badan Ideal Mu !</p>
                             </div>
                             <div class="do-btn">
-                                <a href="../dashboard/menu_perhitungan.php"><i class="ti-arrow-right"></i> ayo hitung</a>
+                                <a href="../perhitungan_bmi/menu_perhitungan.php"><i class="ti-arrow-right"></i> ayo hitung</a>
                             </div>
                         </div>
                     </div>

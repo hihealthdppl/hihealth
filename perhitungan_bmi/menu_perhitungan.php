@@ -33,7 +33,7 @@
 	        <ul class="navbar-nav ml-auto">
 	        	<li class="nav-item active"><a href="../user/index.php" class="nav-link">Home</a></li>
 	        	<li class="nav-item"><a href="menu_perhitungan.php" class="nav-link">Perhitungan BMI</a></li>
-	        	<li class="nav-item"><a href="../dashboard/menu_kalori.php" class="nav-link">Perhitungan Kalori</a></li>
+	        	<li class="nav-item"><a href="../perhitungan_kalori/menu_perhitungank.php" class="nav-link">Perhitungan Kalori</a></li>
 	        	<li class="nav-item"><a href="../dashboard/data_food.php" class="nav-link">Daftar Kalori Makanan</a></li>
 	          <li class="nav-item"><a href="../user/edit_profile.php" class="nav-link">Edit Profile</a></li>
 	          <li class="nav-item"><a href="../dashboard/logout.php" class="nav-link">Logout</a></li>
@@ -43,7 +43,7 @@
 	  </nav>
     <!-- END nav -->
 
-    <div class="hero-wrap js-fullheight" style="background-image: url('images/bg_1.jpg');" data-stellar-background-ratio="0.5">
+    <div class="hero-wrap js-fullheight" style="background-image: url('images/bg_1ss.jpg');" data-stellar-background-ratio="0.5">
       <div class="overlay"></div>
       <div class="container">
         <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-start" data-scrollax-parent="true">
@@ -59,7 +59,7 @@
     	<div class="container">
 	    	<div class="row justify-content-end">
 	    		<div class="col-lg-4">
-						<form method="POST" action="perhitungan_bmi.php" class="appointment-form">
+						<form method="POST" action="hasil_bmi/" class="appointment-form">
 							<h3 class="mb-3">Calculator Perhitungan BMI</h3>
 							<div class="row">
 								<div class="col-md-12">
@@ -78,6 +78,7 @@
 	          					<div class="select-wrap">
 	                      <div class="icon"><span class="fa fa-chevron-down"></span></div>
 	                      <select name="kelamin" class="form-control">
+	                      	<option value="">Jenis kelamin</option>
 	                        <option value="Laki-laki">Laki-laki</option>
 	                        <option value="Perempuan">Perempuan</option>
 	                      </select>
@@ -97,36 +98,35 @@
 	    </div>
     </section>
    
-    <section class="ftco-section ftco-services">
-    	<div class="container">
+	<section class="ftco-section ftco-services">
     		<div class="row">
           <div class="col-md-4 d-flex services align-self-stretch px-4 ftco-animate">
             <div class="d-block services-wrap text-center">
-              <div class="img" style="background-image: url(images/services-1.jpg);"></div>
+              <div class="img" style="background-image: url(images/s1ss.jpg);"></div>
               <div class="media-body py-4 px-3">
-                <h3 class="heading">Map Direction</h3>
-                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
-                <p><a href="#" class="btn btn-primary">Read more</a></p>
+                <h3 class="heading">Perhitungan Kalori</h3>
+                <p>Yuk ketahui Kalori Yang Dibutuhkan Oleh Tubuhmu Sekarang Juga !</p>
+                <p><a href="../perhitungan_bmi/menu_perhitungan.php" class="btn btn-primary">Ayo Hitung</a></p>
               </div>
             </div>      
           </div>
           <div class="col-md-4 d-flex services align-self-stretch px-4 ftco-animate">
             <div class="d-block services-wrap text-center">
-              <div class="img" style="background-image: url(images/services-2.jpg);"></div>
+              <div class="img" style="background-image: url(images/s2s.jpg);"></div>
               <div class="media-body py-4 px-3">
-                <h3 class="heading">Accomodation Services</h3>
-                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
-                <p><a href="#" class="btn btn-primary">Read more</a></p>
+                <h3 class="heading">Daftar Kalori Makanan dan Minuman</h3>
+                <p>Yuk Kita Lihat Jumlah Kalori Yang Ada Di Makanan dan Minuman Kita Setiap Hari !</p>
+                <p><a href="#" class="btn btn-primary">Ayo Lihat</a></p>
               </div>
             </div>    
           </div>
           <div class="col-md-4 d-flex services align-self-stretch px-4 ftco-animate">
             <div class="d-block services-wrap text-center">
-              <div class="img" style="background-image: url(images/services-3.jpg);"></div>
+              <div class="img" style="background-image: url(images/s3ss.jpg);"></div>
               <div class="media-body py-4 px-3">
-                <h3 class="heading">Great Experience</h3>
-                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
-                <p><a href="#" class="btn btn-primary">Read more</a></p>
+                <h3 class="heading">Edit Profile</h3>
+                <p>Yuk Edit Profile Kalian Agar Data Kalian Terupdate !</p>
+                <p><a href="../user/edit_profile.php" class="btn btn-primary">Yuk Update</a></p>
               </div>
             </div>      
           </div>
@@ -138,7 +138,7 @@
       <div class="container">
         <div class="row justify-content-center pb-5 mb-3">
           <div class="col-md-7 heading-section text-center ftco-animate">
-            <h2>Happy Clients &amp; Feedbacks</h2>
+            <h2>What People Say About Health</h2>
           </div>
         </div>
         <div class="row ftco-animate">
@@ -146,71 +146,71 @@
             <div class="carousel-testimony owl-carousel">
 							<div class="item">
                 <div class="testimony-wrap d-flex">
-                  <div class="user-img" style="background-image: url(images/person_1.jpg)">
+                  <div class="user-img" style="background-image: url(images/person_1s.png)">
                   </div>
                   <div class="text pl-4">
                   	<span class="quote d-flex align-items-center justify-content-center">
                       <i class="fa fa-quote-left"></i>
                     </span>
-                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                    <p class="name">Racky Henderson</p>
-                    <span class="position">Father</span>
+                    <p>Untuk menikmati cahaya kesehatan yang baik, Anda harus berolahraga.</p>
+                    <p class="name">Gene Tunney</p>
+                    <span class="position">Irish American professional boxer</span>
                   </div>
                 </div>
               </div>
               <div class="item">
                 <div class="testimony-wrap d-flex">
-                  <div class="user-img" style="background-image: url(images/person_2.jpg)">
+                  <div class="user-img" style="background-image: url(images/person_2s.png)">
                   </div>
                   <div class="text pl-4">
                   	<span class="quote d-flex align-items-center justify-content-center">
                       <i class="fa fa-quote-left"></i>
                     </span>
-                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                    <p class="name">Henry Dee</p>
-                    <span class="position">Businesswoman</span>
+                    <p>Kesehatan yang baik bukanlah sesuatu yang dapat kita beli. Namun, sesuatu yang dapat menjadi tabungan yang sangat berharga.</p>
+                    <p class="name">Anne Wilson Schaef</p>
+                    <span class="position">internationally known author, speaker, consultant, and seminar leader</span>
                   </div>
                 </div>
               </div>
               <div class="item">
                 <div class="testimony-wrap d-flex">
-                  <div class="user-img" style="background-image: url(images/person_3.jpg)">
+                  <div class="user-img" style="background-image: url(images/ss.png)">
                   </div>
                   <div class="text pl-4">
                   	<span class="quote d-flex align-items-center justify-content-center">
                       <i class="fa fa-quote-left"></i>
                     </span>
-                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                    <p class="name">Mark Huff</p>
-                    <span class="position">Businesswoman</span>
+                    <p>Kesehatan dan keceriaan secara alami melahirkan satu sama lain.</p>
+                    <p class="name">Joseph Addison</p>
+                    <span class="position">English essayist, poet, playwright and politician</span>
                   </div>
                 </div>
               </div>
               <div class="item">
                 <div class="testimony-wrap d-flex">
-                  <div class="user-img" style="background-image: url(images/person_4.jpg)">
+                  <div class="user-img" style="background-image: url(images/person_4s.png)">
                   </div>
                   <div class="text pl-4">
                   	<span class="quote d-flex align-items-center justify-content-center">
                       <i class="fa fa-quote-left"></i>
                     </span>
-                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                    <p class="name">Rodel Golez</p>
-                    <span class="position">Businesswoman</span>
+                    <p>Jika engkau mencintai dirimu, engkau tak akan merusak kesehatan jiwa dan ragamu dengan kebiasaan buruk</p>
+                    <p class="name">Mario Teguh</p>
+                    <span class="position">Motivator in Indonesia</span>
                   </div>
                 </div>
               </div>
               <div class="item">
                 <div class="testimony-wrap d-flex">
-                  <div class="user-img" style="background-image: url(images/person_1.jpg)">
+                  <div class="user-img" style="background-image: url(images/person_5s.png)">
                   </div>
                   <div class="text pl-4">
                   	<span class="quote d-flex align-items-center justify-content-center">
                       <i class="fa fa-quote-left"></i>
                     </span>
-                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                    <p class="name">Ken Bosh</p>
-                    <span class="position">Businesswoman</span>
+                    <p>Makan dengan sehat, tidur dengan baik, bernapas dengan dalam, bergerak dengan harmoni</p>
+                    <p class="name">Jean Pierre Barral</p>
+                    <span class="position">a Physical Therapist.</span>
                   </div>
                 </div>
               </div>
@@ -224,27 +224,25 @@
 			<div class="container">
 				<div class="row no-gutters">
 					<div class="col-md-6 wrap-about">
-						<div class="img img-2 mb-4" style="background-image: url(images/about.jpg);">
+						<div class="img img-2 mb-4" style="background-image: url(images/abouts.jpg);">
 						</div>
-						<h2>The most recommended vacation rental</h2>
-						<p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth. Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
 					</div>
 					<div class="col-md-6 wrap-about ftco-animate">
 	          <div class="heading-section">
 	          	<div class="pl-md-5">
-		            <h2 class="mb-2">What we offer</h2>
+		            <h2 class="mb-2">Tips and Tricks</h2>
 	            </div>
 	          </div>
 	          <div class="pl-md-5">
-							<p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+							<p>Kita akan memberikan beberapa tips untuk anda mengenai kesehatan</p>
 							<div class="row">
 		            <div class="services-2 col-lg-6 d-flex w-100">
 		              <div class="icon d-flex justify-content-center align-items-center">
 		            		<span class="flaticon-diet"></span>
 		              </div>
 		              <div class="media-body pl-3">
-		                <h3 class="heading">Tea Coffee</h3>
-		                <p>A small river named Duden flows by their place and supplies it with the necessary</p>
+		                <h3 class="heading">4 Sehat 5 Sempurna</h3>
+		                <p>Mulailah konsumsi makanan yang mengandung unsur 4 sehat 5 sempurna</p>
 		              </div>
 		            </div> 
 		            <div class="services-2 col-lg-6 d-flex w-100">
@@ -252,8 +250,8 @@
 		            		<span class="flaticon-workout"></span>
 		              </div>
 		              <div class="media-body pl-3">
-		                <h3 class="heading">Hot Showers</h3>
-		                <p>A small river named Duden flows by their place and supplies it with the necessary</p>
+		                <h3 class="heading">Istirahat Yang Cukup</h3>
+		                <p>Orang dewasa membutuhkan 7-8 jam untuk tidur sehingga menciptakan tubuh yang sehat</p>
 		              </div>
 		            </div>
 		            <div class="services-2 col-lg-6 d-flex w-100">
@@ -261,8 +259,8 @@
 		            		<span class="flaticon-diet-1"></span>
 		              </div>
 		              <div class="media-body pl-3">
-		                <h3 class="heading">Laundry</h3>
-		                <p>A small river named Duden flows by their place and supplies it with the necessary</p>
+		                <h3 class="heading">Makan Yang Teratur</h3>
+		                <p>Kita Dianjurkan Makan 3x Sehari Agar Tubuh Tidak Kekurangan Nutrisi</p>
 		              </div>
 		            </div>      
 		            <div class="services-2 col-lg-6 d-flex w-100">
@@ -270,45 +268,10 @@
 		            		<span class="flaticon-first"></span>
 		              </div>
 		              <div class="media-body pl-3">
-		                <h3 class="heading">Air Conditioning</h3>
-		                <p>A small river named Duden flows by their place and supplies it with the necessary</p>
+		                <h3 class="heading">Olahraga Teratur</h3>
+		                <p>Untuk Membuat Tubuh Mu Tetap Segar dan Fit, Jangan Lupa Berolahraga</p>
 		              </div>
 		            </div>
-		            <div class="services-2 col-lg-6 d-flex w-100">
-		              <div class="icon d-flex justify-content-center align-items-center">
-		            		<span class="flaticon-first"></span>
-		              </div>
-		              <div class="media-body pl-3">
-		                <h3 class="heading">Free Wifi</h3>
-		                <p>A small river named Duden flows by their place and supplies it with the necessary</p>
-		              </div>
-		            </div> 
-		            <div class="services-2 col-lg-6 d-flex w-100">
-		              <div class="icon d-flex justify-content-center align-items-center">
-		            		<span class="flaticon-first"></span>
-		              </div>
-		              <div class="media-body pl-3">
-		                <h3 class="heading">Kitchen</h3>
-		                <p>A small river named Duden flows by their place and supplies it with the necessary</p>
-		              </div>
-		            </div> 
-		            <div class="services-2 col-lg-6 d-flex w-100">
-		              <div class="icon d-flex justify-content-center align-items-center">
-		            		<span class="flaticon-first"></span>
-		              </div>
-		              <div class="media-body pl-3">
-		                <h3 class="heading">Ironing</h3>
-		                <p>A small river named Duden flows by their place and supplies it with the necessary</p>
-		              </div>
-		            </div> 
-		            <div class="services-2 col-lg-6 d-flex w-100">
-		              <div class="icon d-flex justify-content-center align-items-center">
-		            		<span class="flaticon-first"></span>
-		              </div>
-		              <div class="media-body pl-3">
-		                <h3 class="heading">Lovkers</h3>
-		                <p>A small river named Duden flows by their place and supplies it with the necessary</p>
-		              </div>
 		            </div>
 		          </div>  
 						</div>

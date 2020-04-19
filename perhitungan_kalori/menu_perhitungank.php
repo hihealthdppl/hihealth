@@ -43,7 +43,7 @@
 	  </nav>
     <!-- END nav -->
 
-    <div class="hero-wrap js-fullheight" style="background-image: url('images/bg_1.jpg');" data-stellar-background-ratio="0.5">
+    <div class="hero-wrap js-fullheight" style="background-image: url('images/bg_1s.jpg');" data-stellar-background-ratio="0.5">
       <div class="overlay"></div>
       <div class="container">
         <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-start" data-scrollax-parent="true">
@@ -59,7 +59,7 @@
     	<div class="container">
 	    	<div class="row justify-content-end">
 	    		<div class="col-lg-4">
-						<form method="POST" action="perhitungan_kalori.php" class="appointment-form">
+						<form method="POST" action="hasil_kalori/index.php" class="appointment-form">
 							<h3 class="mb-3">Calculator Perhitungan Kalori</h3>
 							<div class="row">
 								<div class="col-md-12">
@@ -137,17 +137,17 @@
     		<div class="row">
           <div class="col-md-4 d-flex services align-self-stretch px-4 ftco-animate">
             <div class="d-block services-wrap text-center">
-              <div class="img" style="background-image: url(images/s1.jpg);"></div>
+              <div class="img" style="background-image: url(images/s1s.jpg);"></div>
               <div class="media-body py-4 px-3">
                 <h3 class="heading">Perhitungan BMI</h3>
-                <p>Yuk ketahui Berat Badan Ideal Mu Dengan Mengitung BMI Kamu Disini !</p>
+                <p>Yuk ketahui Berat Badan Idealmu Dengan Hitung BMI Sekarang Juga !</p>
                 <p><a href="../perhitungan_bmi/menu_perhitungan.php" class="btn btn-primary">Ayo Hitung</a></p>
               </div>
             </div>      
           </div>
           <div class="col-md-4 d-flex services align-self-stretch px-4 ftco-animate">
             <div class="d-block services-wrap text-center">
-              <div class="img" style="background-image: url(images/s2.jpg);"></div>
+              <div class="img" style="background-image: url(images/s2s.jpg);"></div>
               <div class="media-body py-4 px-3">
                 <h3 class="heading">Daftar Kalori Makanan dan Minuman</h3>
                 <p>Yuk Kita Lihat Jumlah Kalori Yang Ada Di Makanan dan Minuman Kita Setiap Hari !</p>
@@ -157,7 +157,7 @@
           </div>
           <div class="col-md-4 d-flex services align-self-stretch px-4 ftco-animate">
             <div class="d-block services-wrap text-center">
-              <div class="img" style="background-image: url(images/s3.jpg);"></div>
+              <div class="img" style="background-image: url(images/s3ss.jpg);"></div>
               <div class="media-body py-4 px-3">
                 <h3 class="heading">Edit Profile</h3>
                 <p>Yuk Edit Profile Kalian Agar Data Kalian Terupdate !</p>
@@ -173,7 +173,7 @@
       <div class="container">
         <div class="row justify-content-center pb-5 mb-3">
           <div class="col-md-7 heading-section text-center ftco-animate">
-            <h2>Happy Clients &amp; Feedbacks</h2>
+            <h2>What People Say About Health</h2>
           </div>
         </div>
         <div class="row ftco-animate">
@@ -181,71 +181,71 @@
             <div class="carousel-testimony owl-carousel">
 							<div class="item">
                 <div class="testimony-wrap d-flex">
-                  <div class="user-img" style="background-image: url(images/person_1.jpg)">
+                  <div class="user-img" style="background-image: url(images/person_1s.png)">
                   </div>
                   <div class="text pl-4">
                   	<span class="quote d-flex align-items-center justify-content-center">
                       <i class="fa fa-quote-left"></i>
                     </span>
-                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                    <p class="name">Racky Henderson</p>
-                    <span class="position">Father</span>
+                    <p>Untuk menikmati cahaya kesehatan yang baik, Anda harus berolahraga.</p>
+                    <p class="name">Gene Tunney</p>
+                    <span class="position">Irish American professional boxer</span>
                   </div>
                 </div>
               </div>
               <div class="item">
                 <div class="testimony-wrap d-flex">
-                  <div class="user-img" style="background-image: url(images/person_2.jpg)">
+                  <div class="user-img" style="background-image: url(images/person_2s.png)">
                   </div>
                   <div class="text pl-4">
                   	<span class="quote d-flex align-items-center justify-content-center">
                       <i class="fa fa-quote-left"></i>
                     </span>
-                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                    <p class="name">Henry Dee</p>
-                    <span class="position">Businesswoman</span>
+                    <p>Kesehatan yang baik bukanlah sesuatu yang dapat kita beli. Namun, sesuatu yang dapat menjadi tabungan yang sangat berharga.</p>
+                    <p class="name">Anne Wilson Schaef</p>
+                    <span class="position">internationally known author, speaker, consultant, and seminar leader</span>
                   </div>
                 </div>
               </div>
               <div class="item">
                 <div class="testimony-wrap d-flex">
-                  <div class="user-img" style="background-image: url(images/person_3.jpg)">
+                  <div class="user-img" style="background-image: url(images/ss.png)">
                   </div>
                   <div class="text pl-4">
                   	<span class="quote d-flex align-items-center justify-content-center">
                       <i class="fa fa-quote-left"></i>
                     </span>
-                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                    <p class="name">Mark Huff</p>
-                    <span class="position">Businesswoman</span>
+                    <p>Kesehatan dan keceriaan secara alami melahirkan satu sama lain.</p>
+                    <p class="name">Joseph Addison</p>
+                    <span class="position">English essayist, poet, playwright and politician</span>
                   </div>
                 </div>
               </div>
               <div class="item">
                 <div class="testimony-wrap d-flex">
-                  <div class="user-img" style="background-image: url(images/person_4.jpg)">
+                  <div class="user-img" style="background-image: url(images/person_4s.png)">
                   </div>
                   <div class="text pl-4">
                   	<span class="quote d-flex align-items-center justify-content-center">
                       <i class="fa fa-quote-left"></i>
                     </span>
-                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                    <p class="name">Rodel Golez</p>
-                    <span class="position">Businesswoman</span>
+                    <p>Jika engkau mencintai dirimu, engkau tak akan merusak kesehatan jiwa dan ragamu dengan kebiasaan buruk</p>
+                    <p class="name">Mario Teguh</p>
+                    <span class="position">Motivator in Indonesia</span>
                   </div>
                 </div>
               </div>
               <div class="item">
                 <div class="testimony-wrap d-flex">
-                  <div class="user-img" style="background-image: url(images/person_1.jpg)">
+                  <div class="user-img" style="background-image: url(images/person_5s.png)">
                   </div>
                   <div class="text pl-4">
                   	<span class="quote d-flex align-items-center justify-content-center">
                       <i class="fa fa-quote-left"></i>
                     </span>
-                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                    <p class="name">Ken Bosh</p>
-                    <span class="position">Businesswoman</span>
+                    <p>Makan dengan sehat, tidur dengan baik, bernapas dengan dalam, bergerak dengan harmoni</p>
+                    <p class="name">Jean Pierre Barral</p>
+                    <span class="position">a Physical Therapist.</span>
                   </div>
                 </div>
               </div>
