@@ -48,58 +48,57 @@ if (isset($_POST['hitung'])) {
         }
 
         if ($pemakan == "NonVegetarian") {
-            if($TEE>=1600 && $TEE<1800){
-                $hasil= include 'nonvegetarian_p1600.php';
+            if ($TEE >= 1600 && $TEE < 1800) {
+                $hasil = include 'nonvegetarian_p1600.php';
             }
-            if($TEE>=1800 && $TEE<2000){  
-                $hasil= include 'nonvegetarian_p1800.php';
+            if ($TEE >= 1800 && $TEE < 2000) {
+                $hasil = include 'nonvegetarian_p1800.php';
             }
-            if($TEE>=2000 && $TEE<2200){
-                $hasil=include 'nonvegetarian_p2000.php';
+            if ($TEE >= 2000 && $TEE < 2200) {
+                $hasil = include 'nonvegetarian_p2000.php';
             }
-            if($TEE>=2200 && $TEE<2600){
-                $hasil=include 'nonvegetarian_p2200.php';
+            if ($TEE >= 2200 && $TEE < 2600) {
+                $hasil = include 'nonvegetarian_p2200.php';
             }
-            if($TEE>=2600 && $TEE<=3000){
-                $hasil=include 'nonvegetarian_p2600.php';
+            if ($TEE >= 2600 && $TEE <= 3000) {
+                $hasil = include 'nonvegetarian_p2600.php';
             }
         }
         if ($pemakan == "OvoVegetarian") {
-            if($TEE>=1300 && $TEE<1600){
-                $hasil=include 'ovovegetarian_p1300.php';
+            if ($TEE >= 1300 && $TEE < 1600) {
+                $hasil = include 'ovovegetarian_p1300.php';
             }
-            if($TEE>=1600 && $TEE<1900){
-                $hasil=include 'ovovegetarian_p1600.php';
+            if ($TEE >= 1600 && $TEE < 1900) {
+                $hasil = include 'ovovegetarian_p1600.php';
             }
-            if($TEE>=1900 && $TEE<2200){
-                $hasil=include 'ovovegetarian_p1900.php';
+            if ($TEE >= 1900 && $TEE < 2200) {
+                $hasil = include 'ovovegetarian_p1900.php';
             }
-            if($TEE>=2200 && $TEE<2700){
-                $hasil=include 'ovovegetarian_p2200.php';
+            if ($TEE >= 2200 && $TEE < 2700) {
+                $hasil = include 'ovovegetarian_p2200.php';
             }
-            if($TEE>=2700 && $TEE<=3000){
-                $hasil=include 'ovovegetarian_p2700.php';
-            }
-        }
-        if($pemakan == "LactoVegetarian"){
-            if($TEE>=1300 && $TEE<1600){
-                $hasil=include 'lactoovo_p1300.php';
-            }
-            if($TEE>=1600 && $TEE<1900){
-                $hasil=include 'lactoovo_p1600.php';
-            }
-            if($TEE>=1900 && $TEE<2200){
-                $hasil=include 'lactoovo_p1900.php';
-            }
-            if($TEE>=2200 && $TEE<2700){
-                $hasil=include 'lactoovo_p2200.php';
-            }
-            if($TEE>=2700 && $TEE<3000){
-                $hasil=include 'lactoovo_p2700.php';
+            if ($TEE >= 2700 && $TEE <= 3000) {
+                $hasil = include 'ovovegetarian_p2700.php';
             }
         }
-    }
-    else if ($kelamin == "Laki") {
+        if ($pemakan == "LactoVegetarian") {
+            if ($TEE >= 1300 && $TEE < 1600) {
+                $hasil = include 'lactoovo_p1300.php';
+            }
+            if ($TEE >= 1600 && $TEE < 1900) {
+                $hasil = include 'lactoovo_p1600.php';
+            }
+            if ($TEE >= 1900 && $TEE < 2200) {
+                $hasil = include 'lactoovo_p1900.php';
+            }
+            if ($TEE >= 2200 && $TEE < 2700) {
+                $hasil = include 'lactoovo_p2200.php';
+            }
+            if ($TEE >= 2700 && $TEE < 3000) {
+                $hasil = include 'lactoovo_p2700.php';
+            }
+        }
+    } else if ($kelamin == "Laki") {
         $BMR = 88.362 + (13.397 * $bb) + (4.799 * $tb) - (5.677 * $umur);
 
         if ($kegiatan == "TidakAktif") {
@@ -120,58 +119,56 @@ if (isset($_POST['hitung'])) {
         }
 
         if ($pemakan == "NonVegetarian") {
-            if($TEE>=1600 && $TEE<1800){
-                $hasil= include 'nonvegetarian_l1600.php';
+            if ($TEE >= 1600 && $TEE < 1800) {
+                $hasil = include 'nonvegetarian_l1600.php';
             }
-            if($TEE>=1800 && $TEE<2000){  
-                $hasil= include 'nonvegetarian_l1800.php';
+            if ($TEE >= 1800 && $TEE < 2000) {
+                $hasil = include 'nonvegetarian_l1800.php';
             }
-            if($TEE>=2000 && $TEE<2200){
-                $hasil= include 'nonvegetarian_l2000.php';
+            if ($TEE >= 2000 && $TEE < 2200) {
+                $hasil = include 'nonvegetarian_l2000.php';
             }
-            if($TEE>=2200 && $TEE<2700){
-                $hasil= include 'nonvegetarian_l2400.php';
+            if ($TEE >= 2200 && $TEE < 2700) {
+                $hasil = include 'nonvegetarian_l2400.php';
             }
-            if($TEE>=2700 && $TEE<=3100){
-                $hasil= include 'nonvegetarian_l2700.php';
+            if ($TEE >= 2700 && $TEE <= 3100) {
+                $hasil = include 'nonvegetarian_l2700.php';
             }
         }
         if ($pemakan == "OvoVegetarian") {
-            if($TEE>=1300 && $TEE<1600){
-                $hasil= include 'ovovegetarian_l1300.php';
+            if ($TEE >= 1300 && $TEE < 1600) {
+                $hasil = include 'ovovegetarian_l1300.php';
             }
-            if($TEE>=1600 && $TEE<1900){
-                $hasil= include 'ovovegetarian_l1600.php';
+            if ($TEE >= 1600 && $TEE < 1900) {
+                $hasil = include 'ovovegetarian_l1600.php';
             }
-            if($TEE>=1900 && $TEE<2200){
-                $hasil= include 'ovovegetarian_l1900.php';
+            if ($TEE >= 1900 && $TEE < 2200) {
+                $hasil = include 'ovovegetarian_l1900.php';
             }
-            if($TEE>=2200 && $TEE<2700){
-                $hasil= include 'ovovegetarian_l2200.php';
+            if ($TEE >= 2200 && $TEE < 2700) {
+                $hasil = include 'ovovegetarian_l2200.php';
             }
-            if($TEE>=2700 && $TEE<=3000){
-                $hasil= include 'ovovegetarian_l2700.php';
-            }
-        }
-        if($pemakan == "LactoVegetarian"){
-            if($TEE>=1300 && $TEE<1600){
-                $hasil= include 'lactoovo_l1300.php';
-            }
-            if($TEE>=1600 && $TEE<1900){
-                $hasil= include 'lactoovo_l1600.php';
-            }
-            if($TEE>=1900 && $TEE<2200){
-                $hasil= include 'lactoovo_l1900.php';
-            }
-            if($TEE>=2200 && $TEE<2700){
-                $hasil= include 'lactoovo_l2200.php';
-            }
-            if($TEE>=2700 && $TEE<3000){
-                $hasil= include 'lactoovo_l2700.php';
+            if ($TEE >= 2700 && $TEE <= 3000) {
+                $hasil = include 'ovovegetarian_l2700.php';
             }
         }
-
-
+        if ($pemakan == "LactoVegetarian") {
+            if ($TEE >= 1300 && $TEE < 1600) {
+                $hasil = include 'lactoovo_l1300.php';
+            }
+            if ($TEE >= 1600 && $TEE < 1900) {
+                $hasil = include 'lactoovo_l1600.php';
+            }
+            if ($TEE >= 1900 && $TEE < 2200) {
+                $hasil = include 'lactoovo_l1900.php';
+            }
+            if ($TEE >= 2200 && $TEE < 2700) {
+                $hasil = include 'lactoovo_l2200.php';
+            }
+            if ($TEE >= 2700 && $TEE < 3000) {
+                $hasil = include 'lactoovo_l2700.php';
+            }
+        }
     }
 }
 ?>
@@ -214,14 +211,11 @@ if (isset($_POST['hitung'])) {
                 <div class="col-lg-12">
                     <nav class="navbar navbar-expand-lg navbar-light">
                         <a class="navbar-brand" href="index.html"> <img src="img/logo.png" alt="logo"> </a>
-                        <button class="navbar-toggler" type="button" data-toggle="collapse"
-                            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                            aria-expanded="false" aria-label="Toggle navigation">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>
 
-                        <div class="collapse navbar-collapse main-menu-item justify-content-center"
-                            id="navbarSupportedContent">
+                        <div class="collapse navbar-collapse main-menu-item justify-content-center" id="navbarSupportedContent">
                             <ul class="navbar-nav align-items-center">
                                 <li class="nav-item active">
                                     <a class="nav-link" href="../../user/index.php">Home</a>
@@ -261,12 +255,12 @@ if (isset($_POST['hitung'])) {
                         <div class="single_feature_part">
                             <span class="single_feature_icon"><img src="img/icon/feature_1.svg" alt=""></span>
                             <h4>Data Input</h4>
-                            <p style="font-size: 22px; font-family:Noto Sans; font-style=normal; font-weight=bold">Jenis Kelamin : <?php echo"$kelamin";?></p>
-                            <p style="font-size: 22px; font-family:Noto Sans; font-style=normal; font-weight=bold">Tinggi Badan  : <?php echo"$tb cm";?></p>
-                            <p style="font-size: 22px; font-family:Noto Sans; font-style=normal; font-weight=bold">Berat Badan   : <?php echo"$bb kg";?></p>
-                            <p style="font-size: 22px; font-family:Noto Sans; font-style=normal; font-weight=bold">Umur          : <?php echo"$umur tahun";?></p>
-                            <p style="font-size: 22px; font-family:Noto Sans; font-style=normal; font-weight=bold">Kegiatan      : <?php echo"$kegiatan";?></p>
-                            <p style="font-size: 22px; font-family:Noto Sans; font-style=normal; font-weight=bold">Jenis Makanan : <?php echo"$pemakan";?></p>
+                            <p style="font-size: 22px; font-family:Noto Sans; font-style=normal; font-weight=bold">Jenis Kelamin : <?php echo "$kelamin"; ?></p>
+                            <p style="font-size: 22px; font-family:Noto Sans; font-style=normal; font-weight=bold">Tinggi Badan : <?php echo "$tb cm"; ?></p>
+                            <p style="font-size: 22px; font-family:Noto Sans; font-style=normal; font-weight=bold">Berat Badan : <?php echo "$bb kg"; ?></p>
+                            <p style="font-size: 22px; font-family:Noto Sans; font-style=normal; font-weight=bold">Umur : <?php echo "$umur tahun"; ?></p>
+                            <p style="font-size: 22px; font-family:Noto Sans; font-style=normal; font-weight=bold">Kegiatan : <?php echo "$kegiatan"; ?></p>
+                            <p style="font-size: 22px; font-family:Noto Sans; font-style=normal; font-weight=bold">Jenis Makanan : <?php echo "$pemakan"; ?></p>
                         </div>
                     </div>
                     <div class="single_feature">
@@ -274,14 +268,14 @@ if (isset($_POST['hitung'])) {
                             <span class="single_feature_icon"><img src="img/icon/feature_2.svg" alt=""></span>
                             <h4>BMR Mu Adalah</h4>
                             <p style="font-size: 22px; font-family:Noto Sans; font-style=normal; font-weight=bold">Jumlah kalori MINIMAL setiap hari, supaya tubuh organ tubuh Anda bisa berfungsi</p>
-                            <p style="font-size: 22px; font-family:Noto Sans; font-style=normal; font-weight=bold"><?php echo"".number_format($BMR);?></p>
+                            <p style="font-size: 22px; font-family:Noto Sans; font-style=normal; font-weight=bold"><?php echo "" . number_format($BMR); ?></p>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-sm-12">
-                        <div class="single_feature_img">
-                            <img src="img/service.png" alt="">
-                        </div>
+                    <div class="single_feature_img">
+                        <img src="img/service.png" alt="">
+                    </div>
                 </div>
                 <div class="col-lg-3 col-sm-12">
                     <div class="single_feature">
@@ -289,8 +283,10 @@ if (isset($_POST['hitung'])) {
                             <span class="single_feature_icon"><img src="img/icon/feature_1.svg" alt=""></span>
                             <h4>Kesimpulan</h4>
                             <p style="font-size: 22px; font-family:Noto Sans; font-style=normal; font-weight=bold">Jumlah kalori TOTAL yang Anda butuhkan untuk menjalani aktivitas sehari-hari</p>
-                            <p style="font-size: 22px; font-family:Noto Sans; font-style=normal; font-weight=bold"><?php echo"".number_format($TEE); echo" kkal";?></p>
-                            <p style="font-size: 22px; font-family:Noto Sans; font-style=normal; font-weight=bold"><?php echo"Atau ".number_format($TEEc); echo" kal";?></p>
+                            <p style="font-size: 22px; font-family:Noto Sans; font-style=normal; font-weight=bold"><?php echo "" . number_format($TEE);
+                                                                                                                    echo " kkal"; ?></p>
+                            <p style="font-size: 22px; font-family:Noto Sans; font-style=normal; font-weight=bold"><?php echo "Atau " . number_format($TEEc);
+                                                                                                                    echo " kal"; ?></p>
                         </div>
                     </div>
                 </div>
@@ -298,7 +294,7 @@ if (isset($_POST['hitung'])) {
         </div>
     </section>
     <!-- feature_part start-->
-   
+
 
     <!-- our depertment part start-->
     <section class="our_depertment section_padding">
@@ -312,26 +308,32 @@ if (isset($_POST['hitung'])) {
                                 <div class="row">
                                     <div class="col-lg-6 col-sm-6">
                                         <div class="single_our_depertment">
-                                            <span class="our_depertment_icon"><img src="img/icon/feature_2.svg"
-                                                    alt=""></span>
+                                            <span class="our_depertment_icon"><img src="img/icon/feature_2.svg" alt=""></span>
                                             <h4>Makan Pagi</h4>
-                                            <p style="font-size: 22px; font-family:Noto Sans; font-style=normal; font-weight=bold"><?php echo"$hasil"?></p>
+                                            <p style="font-size: 22px; font-family:Noto Sans; font-style=normal; font-weight=bold"><?php
+                                                                                                                                    include "lactoovo_l1300.php";
+                                                                                                                                    pilih("pagi");
+                                                                                                                                    ?></p>
                                         </div>
                                     </div>
                                     <div class="col-lg-6 col-sm-6">
                                         <div class="single_our_depertment">
-                                            <span class="our_depertment_icon"><img src="img/icon/feature_2.svg"
-                                                    alt=""></span>
+                                            <span class="our_depertment_icon"><img src="img/icon/feature_2.svg" alt=""></span>
                                             <h4>Makan Siang</h4>
-                                            <p style="font-size: 22px; font-family:Noto Sans; font-style=normal; font-weight=bold"><?php echo"$hasil"?></p>
+                                            <p style="font-size: 22px; font-family:Noto Sans; font-style=normal; font-weight=bold"><?php
+                                                                                                                                    //include "lactoovo_l1300.php";
+                                                                                                                                    pilih("siang");
+                                                                                                                                    ?></p>
                                         </div>
                                     </div>
                                     <div class="col-lg-6 col-sm-6">
                                         <div class="single_our_depertment">
-                                            <span class="our_depertment_icon"><img src="img/icon/feature_2.svg"
-                                                    alt=""></span>
+                                            <span class="our_depertment_icon"><img src="img/icon/feature_2.svg" alt=""></span>
                                             <h4>Makan Malam</h4>
-                                            <p style="font-size: 22px; font-family:Noto Sans; font-style=normal; font-weight=bold"><?php echo"$hasil"?></p>
+                                            <p style="font-size: 22px; font-family:Noto Sans; font-style=normal; font-weight=bold"><?php
+                                                                                                                                    //include "lactoovo_l1300.php";
+                                                                                                                                    pilih("malam");
+                                                                                                                                    ?></p>
                                         </div>
                                     </div>
                                 </div>
@@ -343,7 +345,7 @@ if (isset($_POST['hitung'])) {
         </div>
     </section>
     <!-- our depertment part end-->
-    
+
     <!-- jquery plugins here-->
 
     <script src="js/jquery-1.12.1.min.js"></script>

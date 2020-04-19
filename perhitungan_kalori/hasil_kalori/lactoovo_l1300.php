@@ -1,96 +1,120 @@
-<table border=1>
+<?php
+function pilih($pilihan)
+{
+    if ($pilihan == "pagi") {
+        echo pagi();
+    }
+    if ($pilihan == "siang") {
+        echo siang();
+    }
+    if ($pilihan == "malam") {
+        echo malam();
+    }
+}
+function pagi()
+{
+?>
+    <table border=1 align="center">
         <tr>
-            <th colspan="3"><?php echo "Makan Pagi" ?></th>
+            <td><b>Makanan</b></td>
+            <td><b>Berat</b></td>
+            <td><b>Kalori</b></td>
         </tr>
         <tr>
-            <td><?php echo "Makanan" ?></td>
-            <td><?php echo "Berat" ?></td>
-            <td><?php echo "Kalori" ?></td>
+            <td>Oatmeal</td>
+            <td>250 gram</td>
+            <td>160</td>
         </tr>
         <tr>
-            <td><?php echo "Oatmeal"?></td>
-            <td><?php echo "250 gram"?></td>
-            <td><?php echo "160"?></td>
+            <td>Keju</td>
+            <td>30 gram</td>
+            <td>90</td>
         </tr>
         <tr>
-            <td><?php echo "Keju"?></td>
-            <td><?php echo "30 gram"?></td>
-            <td><?php echo "90"?></td>
+            <td>Buah Apel</td>
+            <td>160 gram</td>
+            <td>92</td>
         </tr>
         <tr>
-            <td><?php echo "Buah Apel"?></td>
-            <td><?php echo "160 gram"?></td>
-            <td><?php echo "92"?></td>
-        </tr>
-        <tr>
-            <td><?php echo "Susu"?></td>
-            <td><?php echo "250 ml"?></td>
-            <td><?php echo "185"?></td>
+            <td>Susu</td>
+            <td>250 ml</td>
+            <td>185</td>
         </tr>
     </table>
-    <?php echo "<br>";
-        echo "<br>"; ?>
+<?php
+}
+
+function siang()
+{
+?>
     <table border=1>
         <tr>
-            <th colspan="3"><?php echo "Makan Siang" ?></th>
+            <th colspan="3">Makan Siang</th>
         </tr>
         <tr>
-            <td><?php echo "Makanan" ?></td>
-            <td><?php echo "Berat" ?></td>
-            <td><?php echo "Kalori" ?></td>
+            <td>Makanan</td>
+            <td>Berat</td>
+            <td>Kalori</td>
         </tr>
         <tr>
-            <td><?php echo "Urap"?></td>
-            <td><?php echo "100 gram"?></td>
-            <td><?php echo "112"?></td>
+            <td>Urap</td>
+            <td>100 gram</td>
+            <td>112</td>
         </tr>
         <tr>
-            <td><?php echo "Nasi Merah"?></td>
-            <td><?php echo "150 gram"?></td>
-            <td><?php echo "166.5"?></td>
+            <td>Nasi Merah</td>
+            <td>150 gram</td>
+            <td>166.5</td>
         </tr>
         <tr>
-            <td><?php echo "Telur"?></td>
-            <td><?php echo "60 gram"?></td>
-            <td><?php echo "110"?></td>
+            <td>Telur</td>
+            <td>60 gram</td>
+            <td>110</td>
         </tr>
         <tr>
-            <td><?php echo "Teh Hijau"?></td>
-            <td><?php echo "180 ml"?></td>
-            <td><?php echo "2"?></td>
+            <td>Teh Hijau</td>
+            <td>180 ml</td>
+            <td>2</td>
         </tr>
         <tr>
-            <td><?php echo "Buah Alpukat"?></td>
-            <td><?php echo "100 gram"?></td>
-            <td><?php echo "160.1"?></td>
+            <td>Buah Alpukat</td>
+            <td>100 gram</td>
+            <td>160.1</td>
         </tr>
-        
+
     </table>
-    <?php echo "<br>";
-        echo "<br>"; ?>
+<?php
+}
+function malam()
+{
+?>
     <table border=1>
         <tr>
-            <th colspan="3"><?php echo "Makan Malam"?></th>
+            <th colspan="3">Makan Malam</th>
         </tr>
         <tr>
-            <td><?php echo "Makanan" ?></td>
-            <td><?php echo "Berat" ?></td>
-            <td><?php echo "Kalori" ?></td>
+            <td>Makanan</td>
+            <td>Berat</td>
+            <td>Kalori</td>
         </tr>
         <tr>
-            <td><?php echo "Soup Krim Jagung"?></td>
-            <td><?php echo "1 porsi"?></td>
-            <td><?php echo "50"?></td>
+            <td>Soup Krim Jagung</td>
+            <td>1 porsi</td>
+            <td>50</td>
         </tr>
         <tr>
-            <td><?php echo "Mayonaise"?></td>
-            <td><?php echo "2 sdm"?></td>
-            <td><?php echo "114"?></td>
+            <td>Mayonaise</td>
+            <td>2 sdm</td>
+            <td>114</td>
         </tr>
         <tr>
-            <td><?php echo "Yogurt"?></td>
-            <td><?php echo "100 gram"?></td>
-            <td><?php echo "58.8"?></td>
+            <td>Yogurt</td>
+            <td>100 gram</td>
+            <td>58.8</td>
         </tr>
-        
+
     </table>
+<?php
+}
+
+?>
