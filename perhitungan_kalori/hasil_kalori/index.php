@@ -98,7 +98,7 @@ if (isset($_POST['hitung'])) {
                 $hasil = include 'lactoovo_p2700.php';
             }
         }
-    } else if ($kelamin == "Laki") {
+    } else if ($kelamin == "Laki-laki") {
         $BMR = 88.362 + (13.397 * $bb) + (4.799 * $tb) - (5.677 * $umur);
 
         if ($kegiatan == "TidakAktif") {
@@ -268,7 +268,7 @@ if (isset($_POST['hitung'])) {
                             <span class="single_feature_icon"><img src="img/icon/feature_2.svg" alt=""></span>
                             <h4>BMR Mu Adalah</h4>
                             <p style="font-size: 22px; font-family:Noto Sans; font-style=normal; font-weight=bold">Jumlah kalori MINIMAL setiap hari, supaya tubuh organ tubuh Anda bisa berfungsi</p>
-                            <p style="font-size: 22px; font-family:Noto Sans; font-style=normal; font-weight=bold"><?php echo "" . number_format($BMR); ?></p>
+                            <p style="font-size: 22px; font-family:Noto Sans; font-style=normal; font-weight=bold"><?php echo "" . number_format($BMR); echo" kkal";?></p>
                         </div>
                     </div>
                 </div>
