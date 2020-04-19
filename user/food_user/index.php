@@ -23,10 +23,11 @@ https://www.tooplate.com/view/2118-chilling-cafe
           </p>
             <div>
               <ul id="navigation">
-                <li><a href="../admin/index.php">HOME</a></li>
-                <li><a href="../data_user/data_user.php">DAFTAR USER</a></li>
-                <li><a href="index.php">DAFTAR MAKANAN</a></li>
-                <li><a href="../dashboard/logout.php">LOGOUT</a></li>
+                <li><a href="../index.php">HOME</a></li>
+                <li><a href="../../perhitungan_bmi/menu_perhitungan.php">Perhitungan BMI</a></li>
+                <li><a href="../../perhitungan_kalori/menu_perhitungank.php">Perhitungan Kalori</a></li>
+                <li><a href="../edit_profile.php">Edit Profile</a></li>
+                <li><a href="../../dashboard/logout.php">LOGOUT</a></li>
               </ul>
             </div>
         </section>
@@ -53,10 +54,9 @@ https://www.tooplate.com/view/2118-chilling-cafe
                 <th> BERAT </th>
                 <th> KALORI </>
                 <th> UNIT </th>
-			          <th> OPTION </th>
               </tr>
               <?php
-                include '../koneksi.php';
+                include '../../koneksi.php';
                 $no=1;
 		            $data = mysqli_query($koneksi, "select * from makanan");
 		            while ($d = mysqli_fetch_array($data)) {
@@ -68,10 +68,6 @@ https://www.tooplate.com/view/2118-chilling-cafe
 				        <td><?php echo $d['berat']; ?></td>
 				        <td><?php echo $d['kalori']; ?></td>
                 <td><?php echo $d['satuan']; ?></td>
-				        <td>
-					          <a href="hapus_food.php?id=<?php echo $d['id']; ?>">HAPUS</a>
-                    <a href="../edit_food/index.php?id=<?php echo $d['id']; ?>">EDIT</a>
-                </td>
               </tr>
               <?php
             }}?>
@@ -90,10 +86,9 @@ https://www.tooplate.com/view/2118-chilling-cafe
                 <th> BERAT </th>
                 <th> KALORI </>
                 <th> UNIT </th>
-			          <th> OPTION </th>
               </tr>
               <?php
-                include '../koneksi.php';
+                include '../../koneksi.php';
                 $num=1;
 		            $data = mysqli_query($koneksi, "select * from makanan");
 		            while ($d = mysqli_fetch_array($data)) {
@@ -105,10 +100,6 @@ https://www.tooplate.com/view/2118-chilling-cafe
 				        <td><?php echo $d['berat']; ?></td>
 				        <td><?php echo $d['kalori']; ?></td>
                 <td><?php echo $d['satuan']; ?></td>
-				        <td>
-					          <a href="hapus_food.php?id=<?php echo $d['id']; ?>">HAPUS</a>
-                    <a href="../edit_food/index.php?id=<?php echo $d['id']; ?>">EDIT</a>
-                </td>
               </tr>
               <?php
             }}?>
@@ -117,13 +108,6 @@ https://www.tooplate.com/view/2118-chilling-cafe
         </section>
         <hr />
       </div>
-
-      <footer>
-        <p class="tm-text-white tm-footer-text" style="font-size: 40px; font-family:Noto Sans; font-style=normal; font-weight=bold">
-          INGIN MENAMBAHKAN DATA MAKANAN ? KLIK DISINI
-          <p class="tm-text-white tm-footer-text" style="font-size: 40px; font-family:Noto Sans; font-style=normal; font-weight=bold"><a href="../tambah_food/index.php" class="tm-footer-link">Tambah Data Makanan</a></p>
-        </p>
-      </footer>      
 
     </div>
     <script src="js/jquery-3.4.1.min.js"></script>

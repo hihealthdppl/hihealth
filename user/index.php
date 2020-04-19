@@ -67,7 +67,7 @@ if ($_SESSION['status'] != "login") {
                                     <ul id="navigation">    
                                         <li><a href="../perhitungan_bmi/menu_perhitungan.php">Perhitungan BMI</a></li>
                                         <li><a href="../perhitungan_kalori/menu_perhitungank.php">Perhitungan Kalori</a></li>
-                                        <li><a href="#">Daftar Makanan dan Kalori</a></li>
+                                        <li><a href="food_user/index.php">Daftar Makanan dan Kalori</a></li>
                                         <li><a href="edit_profile.php">Edit Profile</a></li>
                                     </ul>
                                 </nav>

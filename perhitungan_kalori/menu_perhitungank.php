@@ -34,7 +34,7 @@
 	        	<li class="nav-item active"><a href="../user/index.php" class="nav-link">Home</a></li>
 	        	<li class="nav-item"><a href="../perhitungan_bmi/menu_perhitungan.php" class="nav-link">Perhitungan BMI</a></li>
 	        	<li class="nav-item"><a href="menu_perhitungank.php" class="nav-link">Perhitungan Kalori</a></li>
-	        	<li class="nav-item"><a href="../dashboard/data_food.php" class="nav-link">Daftar Kalori Makanan</a></li>
+	        	<li class="nav-item"><a href="../user/food_user/index.php" class="nav-link">Daftar Kalori Makanan</a></li>
 	          <li class="nav-item"><a href="../user/edit_profile.php" class="nav-link">Edit Profile</a></li>
 	          <li class="nav-item"><a href="../dashboard/logout.php" class="nav-link">Logout</a></li>
 	        </ul>
