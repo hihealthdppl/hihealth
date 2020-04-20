@@ -15,10 +15,8 @@ function pagi()
 {
 ?>
 
-<table border=1>
-        <tr>
-            <th colspan="3"><?php echo "Makan Pagi" ?></th>
-        </tr>
+<table border=1 style="font-size: 22px; font-family:Noto Sans; font-style=normal; font-weight=bold">
+        
         <tr>
             <td><?php echo "Makanan" ?></td>
             <td><?php echo "Berat" ?></td>
@@ -46,31 +44,28 @@ function pagi()
 function siang()
 {
 ?>
-    <table border=1>
-        <tr>
-            <th colspan="3"><?php echo "Makan Siang" ?></th>
-        </tr>
+    <table border=1 style="font-size: 22px; font-family:Noto Sans; font-style=normal; font-weight=bold"> 
         <tr>
             <td><?php echo "Makanan" ?></td>
             <td><?php echo "Berat" ?></td>
             <td><?php echo "Kalori" ?></td>
         </tr>
-        <tr>
+        <tr style="font-size: 22px; font-family:Noto Sans; font-style=normal; font-weight=bold">
             <td><?php echo "Gado - Gado"?></td>
             <td><?php echo "200 gram"?></td>
             <td><?php echo "393"?></td>
         </tr>
-        <tr>
+        <tr style="font-size: 22px; font-family:Noto Sans; font-style=normal; font-weight=bold">
             <td><?php echo "Telur Dadar"?></td>
             <td><?php echo "60 gram"?></td>
             <td><?php echo "110"?></td>
         </tr>
-        <tr>
+        <tr style="font-size: 22px; font-family:Noto Sans; font-style=normal; font-weight=bold">
             <td><?php echo "Teh Hijau"?></td>
             <td><?php echo "180 ml"?></td>
             <td><?php echo "2"?></td>
         </tr>
-        <tr>
+        <tr style="font-size: 22px; font-family:Noto Sans; font-style=normal; font-weight=bold">
             <td><?php echo "Anggur"?></td>
             <td><?php echo "150 gram"?></td>
             <td><?php echo "103.5"?></td>
@@ -81,10 +76,8 @@ function siang()
 function malam()
 {
 ?>
-    <table border=1>
-        <tr>
-            <th colspan="3"><?php echo "Makan Malam"?></th>
-        </tr>
+    <table border=1 style="font-size: 22px; font-family:Noto Sans; font-style=normal; font-weight=bold">
+        
         <tr>
             <td><?php echo "Makanan" ?></td>
             <td><?php echo "Berat" ?></td>

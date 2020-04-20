@@ -15,10 +15,8 @@ function pagi()
 {
 ?>    
     
-    <table border=1>
-        <tr>
-            <th colspan="3"><?php echo "Makan Pagi" ?></th>
-        </tr>
+    <table border=1 style="font-size: 22px; font-family:Noto Sans; font-style=normal; font-weight=bold">
+        
         <tr>
             <td><?php echo "Makanan" ?></td>
             <td><?php echo "Berat" ?></td>
@@ -51,10 +49,8 @@ function pagi()
 function siang()
 {
 ?>
-    <table border=1>
-        <tr>
-            <th colspan="3"><?php echo "Makan Siang" ?></th>
-        </tr>
+    <table border=1 style="font-size: 22px; font-family:Noto Sans; font-style=normal; font-weight=bold"> 
+        
         <tr>
             <td><?php echo "Makanan" ?></td>
             <td><?php echo "Berat" ?></td>
@@ -96,10 +92,8 @@ function siang()
 function malam()
 {
 ?>
-    <table border=1>
-        <tr>
-            <th colspan="3"><?php echo "Makan Malam"?></th>
-        </tr>
+    <table border=1 style="font-size: 22px; font-family:Noto Sans; font-style=normal; font-weight=bold">
+        
         <tr>
             <td><?php echo "Makanan" ?></td>
             <td><?php echo "Berat" ?></td>

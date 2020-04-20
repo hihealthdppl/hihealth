@@ -25,7 +25,7 @@ https://www.tooplate.com/view/2118-chilling-cafe
               <ul id="navigation">
                 <li><a href="../admin/index.php">HOME</a></li>
                 <li><a href="data_user.php">DAFTAR USER</a></li>
-                <li><a href="../daftar makanan/index.php">DAFTAR MAKANAN</a></li>
+                <li><a href="../daftar makanan/index.php">DAFTAR KALORI MAKANAN</a></li>
                 <li><a href="../dashboard/logout.php">LOGOUT</a></li>
               </ul>
             </div>
@@ -38,7 +38,7 @@ https://www.tooplate.com/view/2118-chilling-cafe
         <h1 class="tm-page-header">Daftar User Website HiHealth </h1>
       </div>
       <div class="tm-main-content"> 
-        <div id="tm-intro-img"></div>
+        <div id="tm-intro-img" style="min-height: 0.0;"></div>
 
         <!-- Food Menu -->
 

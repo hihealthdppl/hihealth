@@ -25,7 +25,7 @@ https://www.tooplate.com/view/2118-chilling-cafe
               <ul id="navigation">
                 <li><a href="../admin/index.php">HOME</a></li>
                 <li><a href="../data_user/data_user.php">DAFTAR USER</a></li>
-                <li><a href="index.php">DAFTAR MAKANAN</a></li>
+                <li><a href="index.php">DAFTAR KALORI MAKANAN</a></li>
                 <li><a href="../dashboard/logout.php">LOGOUT</a></li>
               </ul>
             </div>

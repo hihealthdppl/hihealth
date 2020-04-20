@@ -17,7 +17,7 @@ if ($_SESSION['status'] != "login") {
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <link rel="manifest" href="site.webmanifest">
-		<link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
+		<link rel="shortcut icon" type="image/x-icon" href="assets/img/favicons.ico">
 
 		<!-- CSS here -->
             <link rel="stylesheet" href="assets/css/bootstrap.min.css">
@@ -67,7 +67,7 @@ if ($_SESSION['status'] != "login") {
                                     <ul id="navigation">    
                                         <li><a href="../perhitungan_bmi/menu_perhitungan.php">Perhitungan BMI</a></li>
                                         <li><a href="../perhitungan_kalori/menu_perhitungank.php">Perhitungan Kalori</a></li>
-                                        <li><a href="food_user/index.php">Daftar Makanan dan Kalori</a></li>
+                                        <li><a href="food_user/index.php">Daftar Kalori Makanan</a></li>
                                         <li><a href="edit_profile.php">Edit Profile</a></li>
                                     </ul>
                                 </nav>

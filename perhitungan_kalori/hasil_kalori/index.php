@@ -181,8 +181,8 @@ if (isset($_POST['hitung'])) {
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>medical</title>
-    <link rel="icon" href="img/favicon.png">
+    <title>HiHealth</title>
+    <link rel="icon" href="img/favicons.png">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <!-- animate CSS -->
@@ -210,7 +210,7 @@ if (isset($_POST['hitung'])) {
             <div class="row align-items-center">
                 <div class="col-lg-12">
                     <nav class="navbar navbar-expand-lg navbar-light">
-                        <a class="navbar-brand" href="index.html"> <img src="img/logo.png" alt="logo"> </a>
+                        <a class="navbar-brand" href="index.html"> <img src="img/logoo.png" alt="logo"> </a>
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>
@@ -221,10 +221,13 @@ if (isset($_POST['hitung'])) {
                                     <a class="nav-link" href="../../user/index.php">Home</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="../menu_perhitungan.php">Perhitungan BMI</a>
+                                    <a class="nav-link" href="../../perhitungan_bmi/menu_perhitungan.php">Perhitungan BMI</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="../../perhitungan_kalori/menu_perhitungank.php">Perhitungan Kalori</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="../../user/food_user/index.php">Daftar Makanan dan Kalori</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="../../user/edit_profile.php">Edit Profile</a>
@@ -266,8 +269,8 @@ if (isset($_POST['hitung'])) {
                     <div class="single_feature">
                         <div class="single_feature_part">
                             <span class="single_feature_icon"><img src="img/icon/feature_2.svg" alt=""></span>
-                            <h4>BMR Mu Adalah</h4>
-                            <p style="font-size: 22px; font-family:Noto Sans; font-style=normal; font-weight=bold">Jumlah kalori MINIMAL setiap hari, supaya tubuh organ tubuh Anda bisa berfungsi</p>
+                            <h4>Jumlah Kalori Minimal Setiap Hari</h4>
+                            <p style="font-size: 22px; font-family:Noto Sans; font-style=normal; font-weight=bold">supaya tubuh organ tubuh Anda bisa berfungsi</p>
                             <p style="font-size: 22px; font-family:Noto Sans; font-style=normal; font-weight=bold"><?php echo "" . number_format($BMR); echo" kkal";?></p>
                         </div>
                     </div>
