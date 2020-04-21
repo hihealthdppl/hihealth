@@ -403,7 +403,7 @@ if ($_SESSION['status'] != "login") {
                         </div>
                         <div class="col-xl-5 col-lg-3 col-md-12">
                            <div class="wantToWork-btn f-right">
-                                <a href="#" class="btn btn-ans">Download disini</a>
+                                <a href="../USER GUIDE WEBSITE HIHEALTH.pdf" target="_blank" class="btn btn-ans">Download disini</a>
                            </div>
                         </div>
                     </div>
