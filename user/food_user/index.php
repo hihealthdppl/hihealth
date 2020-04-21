@@ -1,6 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #808080;
+  color: white;
+}
+</style>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
@@ -14,23 +46,18 @@ https://www.tooplate.com/view/2118-chilling-cafe
 -->
   </head>
   <body>
+  <div class="topnav">
+  <a class="active" href="../index.php">Home</a>
+  <a href="../../perhitungan_bmi/menu_perhitungan.php">Perhitungan BMI</a>
+  <a href="../../perhitungan_kalori/menu_perhitungank.php">Perhitungan Kalori</a>
+  <a href="index.php">Daftar Kalori Makanan</a>
+  <a href="../user/edit_profile.php">Edit Profile</a>
+  <a href="../../dashboard/logout.php">Logout</a>
+</div>
+
     <div class="tm-container">
       <div class="tm-main-content">
-        <!-- Talk to us -->
-        <section class="tm-section tm-section-small">
-          <h2 class="tm-section-header">NAVIGATION BAR</h2>
-          <p class="tm-mb-0">
-          </p>
-            <div>
-              <ul id="navigation">
-                <li><a href="../index.php">HOME</a></li>
-                <li><a href="../../perhitungan_bmi/menu_perhitungan.php">Perhitungan BMI</a></li>
-                <li><a href="../../perhitungan_kalori/menu_perhitungank.php">Perhitungan Kalori</a></li>
-                <li><a href="../edit_profile.php">Edit Profile</a></li>
-                <li><a href="../../dashboard/logout.php">LOGOUT</a></li>
-              </ul>
-            </div>
-        </section>
+       
       </div>
   </div>
     <div class="tm-container">
