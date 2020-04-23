@@ -7,7 +7,9 @@ if (isset($_GET['pesan'])) {
 		echo "<script>alert('Logout Berhasil, Anda telah keluar')</script>";
 	} else if ($_GET['pesan'] == "daftarsukses") {
 		echo "<script>alert('Pendaftaran Berhasil, Silahkan login menggunakan akun yang telah dibuat')</script>";
-	}
+    }else if ($_GET['pesan'] == "gagal2") {
+		echo "<script>alert('Username Harus Diisi')</script>";
+    }
 }
 ?>
 
@@ -61,12 +63,11 @@ if (isset($_GET['pesan'])) {
                 </div>
             </div>
         </section>
-
 		</div>
 
 <!-- JS -->
 <script src="vendor/jquery/jquery.min.js"></script>
 <script src="js/main.js"></script>
-</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
+</body>
 </html>
 

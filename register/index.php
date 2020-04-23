@@ -1,3 +1,15 @@
+<?php
+//Pesan Notifikasi
+if (isset($_GET['pesan'])) {
+    if ($_GET['pesan'] == "gagal") {
+		echo "<script>alert('Masih ada data yang kosong / username tidak boleh ada spasi dan angka')</script>";
+    }
+    if ($_GET['pesan'] == "gagal2") {
+		echo "<script>alert('username sudah ada yang menggunakan')</script>";
+    }
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -25,11 +37,11 @@
                         <form method="POST" class="register-form" id="register-form" action="cek_register.php">
                             <div class="form-group">
                                 <label for="name"><i class="zmdi zmdi-account material-icons-name"></i></label>
-                                <input type="text" name="nama" id="name" placeholder="Nama Lengkap Anda"/>
+                                <input type="text" name="nama" id="name" placeholder="Nama Lengkap"/>
                             </div>
                             <div class="form-group">
                                 <label for="email"><i class="zmdi zmdi-email"></i></label>
-                                <input type="email" name="email" id="email" placeholder="Email Anda"/>
+                                <input type="email" name="email" id="email" placeholder="Email"/>
                             </div>
                             <div class="form-group">
                                 <label for="name"><i class="zmdi zmdi-account material-icons-name"></i></label>
@@ -41,21 +53,20 @@
                             </div>
                             <div class="form-group">
                                 <label for="name"><i class="zmdi zmdi-account material-icons-name"></i></label>
-                                <input type="text" name="tinggibadan" id="name" placeholder="Tinggi Badan Anda"/>
+                                <input type="text" name="tinggibadan" id="name" placeholder="Tinggi Badan"/>
                             </div>
                             <div class="form-group">
                                 <label for="name"><i class="zmdi zmdi-account material-icons-name"></i></label>
-                                <input type="text" name="beratbadan" id="name" placeholder="Berat Badan Anda"/>
+                                <input type="text" name="beratbadan" id="name" placeholder="Berat Badan"/>
                             </div>
                             <div class="form-group">
                                 <label for="name"><i class="zmdi zmdi-account material-icons-name"></i></label>
-                                <input type="text" name="umur" id="name" placeholder="Umur Anda"/>
+                                <input type="text" name="umur" id="name" placeholder="Umur"/>
                             </div>
                             <div class="form-group form-button">
                                 <input type="submit" name="signup" id="signup" class="form-submit" value="Register"/>
                                 <input type="reset" name="reset" id="signup" class="form-submit" value="Reset"/>
                             </div>
-
                         </form>
                     </div>
                     <div class="signup-image">
