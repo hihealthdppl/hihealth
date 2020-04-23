@@ -1,3 +1,12 @@
+<?php
+//Pesan Notifikasi
+if (isset($_GET['pesan'])) {
+    if ($_GET['pesan'] == "gagal") {
+		echo "<script>alert('Masih ada data yang kosong')</script>";
+    }
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 

@@ -11,24 +11,28 @@ $jenis = $_POST['jenis'];
 
 // menginput data ke database
 
-$data = mysqli_query($koneksi, "insert into makanan values(NULL,'$names','$weight','$calory','$units','$jenis')");
 
+if(($names!=NULL) && ($weight!=NULL) && ($calory!=NULL) 
+    && ($units!=NULL)&& ($jenis!=NULL)){
+        $data = mysqli_query($koneksi, "insert into makanan values(NULL,'$names','$weight','$calory','$units','$jenis')");
 
-
-if ($data) {
-    echo "
+        if ($data) {
+            echo "
             <script>
             alert('Data berhasil ditambahkan');
             document.location.href='../daftar makanan/index.php';
             </script>
-        ";
+            ";
+        }
+        else{
+            echo "
+            <script>
+            alert('Gagal simpan data makanan');
+            </script>";
+            exit;
+        }
 }
 else{
-    echo "
-        <script>
-        alert('Gagal simpan data makanan');
-        </script>";
-    exit;
+    header("location:.?pesan=gagal");
 }
-
 ?>
