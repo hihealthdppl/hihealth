@@ -1,0 +1,515 @@
+.mediaViewInfo {
+	--web-view-name: Registrasi Acount;
+	--web-view-id: Registrasi_Acount;
+	--web-scale-on-resize: true;
+	--web-center-horizontally: true;
+	--web-center-vertically: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: Registrasi_Acount;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#Registrasi_Acount {
+	position: absolute;
+	transform: translateX(-50%) translateY(-50%);
+	left: 50%;
+	top: 50%;
+	width: 1920px;
+	height: 1080px;
+	background-color: rgba(255,255,255,1);
+	overflow: hidden;
+	--web-view-name: Registrasi Acount;
+	--web-view-id: Registrasi_Acount;
+	--web-scale-on-resize: true;
+	--web-center-horizontally: true;
+	--web-center-vertically: true;
+	--web-enable-deep-linking: true;
+}
+@keyframes  {
+
+
+}
+#Group_28 {
+	position: absolute;
+	width: 179px;
+	height: 93px;
+	left: 60px;
+	top: 23px;
+	overflow: visible;
+	--web-animation: fadein 0.5s snap;
+	--web-action-type: page;
+	--web-action-target: Halaman_Login_1.html;
+	cursor: pointer;
+}
+#heartbeat_413 {
+	position: absolute;
+	width: 93px;
+	height: 93px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#HiHealth {
+	position: absolute;
+	left: 86px;
+	top: 33px;
+	overflow: visible;
+	width: 94px;
+	height: 27px;
+	text-align: left;
+	font-family: Microsoft YaHei UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(29,35,102,1);
+}
+#undraw_noted_pc9f {
+	position: absolute;
+	width: 778px;
+	height: 653px;
+	left: 87px;
+	top: 214px;
+	overflow: visible;
+}
+#Group_68 {
+	position: absolute;
+	width: 1988.05px;
+	height: 663.13px;
+	left: -33.904px;
+	top: 693.5px;
+	overflow: visible;
+}
+#Group_47 {
+	position: absolute;
+	width: 1988.05px;
+	height: 663.13px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Group_40 {
+	position: absolute;
+	width: 1988.05px;
+	height: 663.13px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Path_247 {
+	opacity: 0.75;
+}
+.Path_247 {
+	overflow: visible;
+	position: absolute;
+	width: 1988.05px;
+	height: 553.13px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Path_255 {
+	opacity: 0.75;
+}
+.Path_255 {
+	overflow: visible;
+	position: absolute;
+	width: 1988.05px;
+	height: 553.13px;
+	left: 0px;
+	top: 56px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Path_250 {
+	opacity: 0.75;
+}
+.Path_250 {
+	overflow: visible;
+	position: absolute;
+	width: 1988.05px;
+	height: 553.13px;
+	left: 0px;
+	top: 22px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Path_248 {
+	opacity: 0.75;
+}
+.Path_248 {
+	overflow: visible;
+	position: absolute;
+	width: 1988.05px;
+	height: 553.13px;
+	left: 0px;
+	top: 48px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Path_249 {
+	opacity: 0.75;
+}
+.Path_249 {
+	overflow: visible;
+	position: absolute;
+	width: 1988.05px;
+	height: 553.13px;
+	left: 0px;
+	top: 79px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Path_251 {
+	opacity: 0.75;
+}
+.Path_251 {
+	overflow: visible;
+	position: absolute;
+	width: 1988.05px;
+	height: 553.13px;
+	left: 0px;
+	top: 110px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Group_60 {
+	position: absolute;
+	width: 633px;
+	height: 813px;
+	left: 1111px;
+	top: 70px;
+	overflow: visible;
+}
+#Username__ {
+	position: absolute;
+	left: 61px;
+	top: 547px;
+	overflow: visible;
+	width: 143px;
+	height: 36px;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 25px;
+	color: rgba(29,35,102,1);
+}
+#Password__ {
+	position: absolute;
+	left: 66px;
+	top: 653px;
+	overflow: visible;
+	width: 146px;
+	height: 36px;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 25px;
+	color: rgba(29,35,102,1);
+}
+#Berat_Badan__ {
+	position: absolute;
+	left: 35px;
+	top: 231px;
+	overflow: visible;
+	width: 165px;
+	height: 34px;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 25px;
+	color: rgba(29,35,102,1);
+}
+#Tinggi_Badan__ {
+	position: absolute;
+	left: 23px;
+	top: 336px;
+	overflow: visible;
+	width: 183px;
+	height: 39px;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 25px;
+	color: rgba(29,35,102,1);
+}
+#Email__ {
+	position: absolute;
+	left: 114px;
+	top: 124px;
+	overflow: visible;
+	width: 79px;
+	height: 36px;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 25px;
+	color: rgba(29,35,102,1);
+}
+#Group_48 {
+	position: absolute;
+	width: 415px;
+	height: 72px;
+	left: 218px;
+	top: 106px;
+	overflow: visible;
+}
+.Rectangle_45 {
+	filter: drop-shadow(3px 3px 18px rgba(0, 0, 0, 0.302));
+	position: absolute;
+	overflow: visible;
+	width: 469px;
+	height: 126px;
+	left: 0px;
+	top: 0px;
+}
+.Rectangle_46 {
+	filter: drop-shadow(-3px -3px 18px rgba(255, 255, 255, 1));
+	position: absolute;
+	overflow: visible;
+	width: 469px;
+	height: 126px;
+	left: 0px;
+	top: 0px;
+}
+#Group_50 {
+	position: absolute;
+	width: 415px;
+	height: 72px;
+	left: 218px;
+	top: 212px;
+	overflow: visible;
+}
+.Rectangle_45_ba {
+	filter: drop-shadow(3px 3px 18px rgba(0, 0, 0, 0.302));
+	position: absolute;
+	overflow: visible;
+	width: 469px;
+	height: 126px;
+	left: 0px;
+	top: 0px;
+}
+.Rectangle_46_bb {
+	filter: drop-shadow(-3px -3px 18px rgba(255, 255, 255, 1));
+	position: absolute;
+	overflow: visible;
+	width: 469px;
+	height: 126px;
+	left: 0px;
+	top: 0px;
+}
+#Group_51 {
+	position: absolute;
+	width: 415px;
+	height: 72px;
+	left: 218px;
+	top: 318px;
+	overflow: visible;
+}
+.Rectangle_45_bd {
+	filter: drop-shadow(3px 3px 18px rgba(0, 0, 0, 0.302));
+	position: absolute;
+	overflow: visible;
+	width: 469px;
+	height: 126px;
+	left: 0px;
+	top: 0px;
+}
+.Rectangle_46_be {
+	filter: drop-shadow(-3px -3px 18px rgba(255, 255, 255, 1));
+	position: absolute;
+	overflow: visible;
+	width: 469px;
+	height: 126px;
+	left: 0px;
+	top: 0px;
+}
+#Group_52 {
+	position: absolute;
+	width: 415px;
+	height: 72px;
+	left: 218px;
+	top: 529px;
+	overflow: visible;
+}
+.Rectangle_45_bg {
+	filter: drop-shadow(3px 3px 18px rgba(0, 0, 0, 0.302));
+	position: absolute;
+	overflow: visible;
+	width: 469px;
+	height: 126px;
+	left: 0px;
+	top: 0px;
+}
+.Rectangle_46_bh {
+	filter: drop-shadow(-3px -3px 18px rgba(255, 255, 255, 1));
+	position: absolute;
+	overflow: visible;
+	width: 469px;
+	height: 126px;
+	left: 0px;
+	top: 0px;
+}
+#Group_53 {
+	position: absolute;
+	width: 415px;
+	height: 72px;
+	left: 218px;
+	top: 635px;
+	overflow: visible;
+}
+.Rectangle_45_bj {
+	filter: drop-shadow(3px 3px 18px rgba(0, 0, 0, 0.302));
+	position: absolute;
+	overflow: visible;
+	width: 469px;
+	height: 126px;
+	left: 0px;
+	top: 0px;
+}
+.Rectangle_46_bk {
+	filter: drop-shadow(-3px -3px 18px rgba(255, 255, 255, 1));
+	position: absolute;
+	overflow: visible;
+	width: 469px;
+	height: 126px;
+	left: 0px;
+	top: 0px;
+}
+#Nama_Lengkap__ {
+	position: absolute;
+	left: 0px;
+	top: 18px;
+	overflow: visible;
+	width: 203px;
+	height: 36px;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 25px;
+	color: rgba(29,35,102,1);
+}
+#Group_58 {
+	position: absolute;
+	width: 415px;
+	height: 72px;
+	left: 218px;
+	top: 0px;
+	overflow: visible;
+}
+.Rectangle_45_bn {
+	filter: drop-shadow(3px 3px 18px rgba(0, 0, 0, 0.302));
+	position: absolute;
+	overflow: visible;
+	width: 469px;
+	height: 126px;
+	left: 0px;
+	top: 0px;
+}
+.Rectangle_46_bo {
+	filter: drop-shadow(-3px -3px 18px rgba(255, 255, 255, 1));
+	position: absolute;
+	overflow: visible;
+	width: 469px;
+	height: 126px;
+	left: 0px;
+	top: 0px;
+}
+#Group_59 {
+	position: absolute;
+	width: 415px;
+	height: 72px;
+	left: 218px;
+	top: 424px;
+	overflow: visible;
+}
+.Rectangle_45_bq {
+	filter: drop-shadow(3px 3px 18px rgba(0, 0, 0, 0.302));
+	position: absolute;
+	overflow: visible;
+	width: 469px;
+	height: 126px;
+	left: 0px;
+	top: 0px;
+}
+.Rectangle_46_br {
+	filter: drop-shadow(-3px -3px 18px rgba(255, 255, 255, 1));
+	position: absolute;
+	overflow: visible;
+	width: 469px;
+	height: 126px;
+	left: 0px;
+	top: 0px;
+}
+#Umur__ {
+	position: absolute;
+	left: 111px;
+	top: 441px;
+	overflow: visible;
+	width: 92px;
+	height: 39px;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 25px;
+	color: rgba(29,35,102,1);
+}
+#Group_74 {
+	position: absolute;
+	width: 220px;
+	height: 72px;
+	left: 316px;
+	top: 741px;
+	overflow: visible;
+	--web-animation: fadein 0.5s snap;
+	--web-action-type: page;
+	--web-action-target: setelah_regis.html;
+	cursor: pointer;
+}
+#Group_73 {
+	position: absolute;
+	width: 220px;
+	height: 72px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+.Rectangle_45_bv {
+	filter: drop-shadow(3px 3px 18px rgba(0, 0, 0, 0.302));
+	position: absolute;
+	overflow: visible;
+	width: 274px;
+	height: 126px;
+	left: 0px;
+	top: 0px;
+}
+.Rectangle_46_bw {
+	filter: drop-shadow(-3px -3px 18px rgba(255, 255, 255, 1));
+	position: absolute;
+	overflow: visible;
+	width: 274px;
+	height: 126px;
+	left: 0px;
+	top: 0px;
+}
+#Registrasi {
+	position: absolute;
+	left: 37px;
+	top: 17px;
+	overflow: visible;
+	width: 141px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Noto Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 29px;
+	color: rgba(29,35,102,1);
+}

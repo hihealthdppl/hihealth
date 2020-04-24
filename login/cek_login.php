@@ -1,4 +1,6 @@
 <?php
+
+include "../koneksi.php";
 // menangkap data yang dikirim dari form
 $username = $_POST['username'];
 $password = $_POST['password'];
@@ -6,37 +8,42 @@ $password = $_POST['password'];
 // mengaktifkan session php
 session_start();
 
-//Membuat koneksi database
-$koneksi = mysqli_connect("localhost", "root", "", "tubesdpplnew");
-
-// Check connection
-if (mysqli_connect_errno()) {
-	echo "Koneksi database gagal : " . mysqli_connect_error();
-}
 
 // menyeleksi data admin dengan username dan password yang sesuai
-$data = mysqli_query($koneksi, "select * from user where username='$username' and sandi='$password'");
 
-// menghitung jumlah data yang ditemukan
-$cek = mysqli_num_rows($data);
 
-if ($cek > 0) {
+if(ctype_alpha($username)){
 
-	$data = mysqli_fetch_assoc($data);
-	// cek jika user login sebagai admin
-	if ($data['username'] == "admin") {
-		// buat session login dan username
-		$_SESSION['username'] = $username;
-		$_SESSION['status'] = "login";
-		$_SESSION['level'] = "admin";
+	$data = mysqli_query($koneksi, "select * from user where username='$username' and sandi='$password'");
+
+	// menghitung jumlah data yang ditemukan
+	$cek = mysqli_num_rows($data);
+
+	if ($cek > 0) {
+	
+		$data = mysqli_fetch_assoc($data);
+		// cek jika user login sebagai admin
+		if (($data['username'] == "admin")&&($data['sandi']=="admin123")) {
+			// buat session login dan username
+			$_SESSION['username'] = $username;
+			$_SESSION['status'] = "login";
+			$_SESSION['level'] = "admin";
 		// alihkan ke halaman dashboard admin
-		header("location:../dashboard/halaman_admin.php");
-	} else {
+		header("location:../admin");
+		} 
+	else {
 		$_SESSION['username'] = $username;
 		$_SESSION['status'] = "login";
-		header("location:../dashboard");
+		header("location:../user");
+	}}
+	else{
+		//mengalihkan ke halaman login kembali
+		header("location:.?pesan=gagal");
 	}
-} else {
-	//mengalihkan ke halaman login kembali
-	header("location:.?pesan=gagal");
+
 }
+else{
+	header("location:.?pesan=gagal2");
+}
+?>
+
