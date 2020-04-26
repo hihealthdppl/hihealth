@@ -14,7 +14,7 @@ $data = mysqli_query($koneksi,"delete from makanan where id='$id'");
 if ($data) {
     echo "
             <script>
-            alert('Data berhasil ditambahkan');
+            alert('Data berhasil dihapus');
             document.location.href='index.php';
             </script>
         ";
@@ -22,7 +22,7 @@ if ($data) {
 else{
     echo "
         <script>
-        alert('Gagal simpan data makanan');
+        alert('Gagal hapus data makanan');
         </script>";
     exit;
 }

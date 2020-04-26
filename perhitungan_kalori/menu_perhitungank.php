@@ -83,6 +83,7 @@
 	          					<div class="select-wrap">
 	                      <div class="icon"><span class="fa fa-chevron-down"></span></div>
 	                      <select name="kelamin" class="form-control">
+	                        <option value="">Jenis Kelamin</option>
 	                        <option value="Laki-laki">Laki-laki</option>
 	                        <option value="Perempuan">Perempuan</option>
 	                      </select>
@@ -96,6 +97,7 @@
 	          					<div class="select-wrap">
 	                      <div class="icon"><span class="fa fa-chevron-down"></span></div>
 	                      <select name="kegiatan" class="form-control">
+	                        <option value="">Kegiatan</option>
 	                      	<option value="TidakAktif">Tidak Aktif</option>
 	                        <option value="CukupAktif">Cukup Aktif (Olahraga 1-3 kali/minggu)</option>
 							<option value="Aktif">Aktif (Olahraga 3-5 kali/minggu)n</option>
@@ -111,6 +113,7 @@
 	          					<div class="select-wrap">
 	                      <div class="icon"><span class="fa fa-chevron-down"></span></div>
 	                      <select name="pemakan" class="form-control">
+						  <option value="">Jenis Makanan</option>
 						  <option value="LactoVegetarian">Lacto Vegetarian (Tidak makan daging,ikan,unggas dan telur namun masih mengonsumsi produk yang dihasilkan dari susu)</option>
                         <option value="OvoVegetarian">Ovo Vegetarian (Tidak mengonsumsi daging,ikan,unggas dan produk susu, namun masih memperbolehkan konsumsi telur)</option>
                         <option value="NonVegetarian">Non Vegetarian</option>

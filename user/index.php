@@ -126,7 +126,7 @@ if ($_SESSION['status'] != "login") {
                 <div class="row d-flex justify-content-center">
                     <div class="col-lg-8">
                         <div class="section-tittle text-center">
-                            <h2>What We Will Do For Your Healthy​</h2>
+                            <h2>What We Can Do For Your Healthy</h2>
                         </div>
                     </div>
                 </div>
@@ -172,7 +172,7 @@ if ($_SESSION['status'] != "login") {
                                 <p>Yuk Buruan Cek Daftar Makanan Beserta Kalorinya Disini !</p>
                             </div>
                             <div class="do-btn">
-                                <a href="../dashboard/data_food.php"><i class="ti-arrow-right"></i> ayo lihat</a>
+                                <a href="food_user/index.php"><i class="ti-arrow-right"></i> ayo lihat</a>
                             </div>
                         </div>
                     </div>
@@ -378,12 +378,12 @@ if ($_SESSION['status'] != "login") {
                         <div class="col-xl-7 col-lg-9 col-md-12">
                             <div class="wantToWork-caption">
                                 <h2>Butuh Bantuan Untuk Menjalankan Website ?</h2>
-                                <p>Kami akan membantu anda untuk memaksimalkan penggunaan website ini. Kalian bisa mendownload buku panduan berbentuk pdf dengan klik tombol ini</p>
+                                <p>Kami akan membantu anda untuk memaksimalkan penggunaan website ini. Anda bisa mendownload buku panduan berbentuk pdf dengan klik tombol ini</p>
                             </div>
                         </div>
                         <div class="col-xl-5 col-lg-3 col-md-12">
                            <div class="wantToWork-btn f-right">
-                                <a href="../USER GUIDE WEBSITE HIHEALTH.pdf" target="_blank" class="btn btn-ans">Download disini</a>
+                                <a href="../USER GUIDE WEBSITE HIHEALTH.pdf" target=_blank class="btn btn-ans">Download disini</a>
                            </div>
                         </div>
                     </div>

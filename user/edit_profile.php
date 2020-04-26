@@ -1,3 +1,12 @@
+<?php
+//Pesan Notifikasi
+if (isset($_GET['pesan'])) {
+    if ($_GET['pesan'] == "gagal") {
+		echo "<script>alert('username sudah ada yang menggunakan')</script>";
+    }
+}
+?>
+
 <!DOCTYPE html>
 <html>
 	<head>
@@ -23,9 +32,12 @@
 				
 
 				<?php
+				
 					include '../koneksi.php';
 					//Mengambil id user dengan mengecek session
+					
 					session_start();
+                    
 					$usernamesesi = $_SESSION['username'];
 					$data = mysqli_query($koneksi, "select * from user where username = '$usernamesesi'");
 					
@@ -39,6 +51,10 @@
 						<div class="form-group">
 							<input type="hidden" name="id" value= "<?php echo $d['id']; ?>" class="form-control">
 							<input type="text" name="nama" value= "<?php echo $d['Nama']; ?>"  class="form-control">
+						</div>
+						<div class="form-wrapper">Apakah Anda Ingin Mengganti Username ( ya / tidak ) ?
+							<input type="text" name="jawab" class="form-control">
+							<i class="zmdi zmdi-account"></i>
 						</div>
 						<div class="form-wrapper">Username
 							<input type="text" name="usernames" value="<?php echo $d['username']; ?>" class="form-control">

@@ -2,6 +2,7 @@
 
 include "../koneksi.php";
 // menangkap data yang dikirim dari form
+
 $username = $_POST['username'];
 $password = $_POST['password'];
 
@@ -12,9 +13,10 @@ session_start();
 // menyeleksi data admin dengan username dan password yang sesuai
 
 
-if(ctype_alpha($username)){
+if((ctype_alpha($username))&&($username!=NULL)&&($password!=NULL)){
 
 	$data = mysqli_query($koneksi, "select * from user where username='$username' and sandi='$password'");
+
 
 	// menghitung jumlah data yang ditemukan
 	$cek = mysqli_num_rows($data);

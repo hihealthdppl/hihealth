@@ -8,7 +8,7 @@ if (isset($_GET['pesan'])) {
 	} else if ($_GET['pesan'] == "daftarsukses") {
 		echo "<script>alert('Pendaftaran Berhasil, Silahkan login menggunakan akun yang telah dibuat')</script>";
     }else if ($_GET['pesan'] == "gagal2") {
-		echo "<script>alert('Username Harus Diisi')</script>";
+		echo "<script>alert('Username / Password Harus Diisi')</script>";
     }
 }
 ?>
@@ -36,7 +36,7 @@ if (isset($_GET['pesan'])) {
                 <div class="signin-content">
                     <div class="signin-image">
                         <figure><img src="images/signin-image.png" alt="sing up image"></figure>
-                        <a href="../register/index.php" class="signup-image-link">Create an account</a>
+                        <a href="../register/index.php" class="signup-image-link">Don't Have An Account ? Sign Up !</a>
                     </div>
                     <div class="signin-form">
                         <h2 class="form-title">Sign In</h2>
@@ -49,12 +49,6 @@ if (isset($_GET['pesan'])) {
                                 <label for="your_pass"><i class="zmdi zmdi-lock"></i></label>
                                 <input type="password" name="password" id="your_pass" placeholder="Password"/>
                             </div>
-                            <div class="form-group">
-                                <input type="checkbox" name="remember-me" id="remember-me" class="agree-term" />
-                                <label for="remember-me" class="label-agree-term"><span><span></span></span>Remember me</label>
-                                
-                            </div>
-                            <a href="../register/index.php" class="signup-image-link">Create an account</a>
                             <div class="form-group form-button">
                                 <input type="submit" name="signin" id="signin" class="form-submit" value="Log in"/>
                             </div>
