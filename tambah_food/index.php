@@ -2,7 +2,10 @@
 //Pesan Notifikasi
 if (isset($_GET['pesan'])) {
     if ($_GET['pesan'] == "gagal") {
-		echo "<script>alert('Masih ada data yang kosong')</script>";
+		echo "<script>alert('Masih ada data yang kosong atau jenis/unit yang anda masukkan tidak sesuai')</script>";
+    }
+    if ($_GET['pesan'] == "gagal2") {
+		echo "<script>alert('Salah Memasukkan Jenis')</script>";
     }
 }
 ?>
@@ -81,7 +84,7 @@ if (isset($_GET['pesan'])) {
     <!-- Main JS-->
     <script src="js/global.js"></script>
 
-</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
+</body>
 
 </html>
 <!-- end document-->

@@ -13,7 +13,7 @@ $jenis = $_POST['jenis'];
 
 
 if(($names!=NULL) && ($weight!=NULL) && ($calory!=NULL) 
-    && ($units!=NULL)&& ($jenis!=NULL)){
+    && ($units!=NULL)&& ($jenis!=NULL) && (($jenis=="makanan")||($jenis=="minuman")) && (($units=="gram")||($units=="ml")||($units=="sdm")) ){
         $data = mysqli_query($koneksi, "insert into makanan values(NULL,'$names','$weight','$calory','$units','$jenis')");
 
         if ($data) {

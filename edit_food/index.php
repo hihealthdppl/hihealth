@@ -1,3 +1,11 @@
+<?php
+//Pesan Notifikasi
+if (isset($_GET['pesan'])) {
+    if ($_GET['pesan'] == "gagal") {
+		echo "<script>alert(Masih ada data yang kosong atau jenis/unit yang anda masukkan tidak sesuai”')</script>";
+    }
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -43,7 +51,7 @@
                         <input class="input--style-3" type="hidden" value="<?php echo $d['id']; ?>" name="id">
                             <input class="input--style-3" type="text" value="<?php echo $d['food']; ?>" name="nama">
                         </div>
-                        <div class="input-group">
+                        <div class="input-group"> 
                             <input class="input--style-3" type="text" value="<?php echo $d['berat']; ?>" name="weight">
                         </div>
                         <div class="input-group">

@@ -57,7 +57,7 @@ if ($_SESSION['status'] != "login") {
                         <!-- Logo -->
                         <div class="col-xl-2 col-lg-2 col-md-1">
                             <div class="logo">
-                                <a href="index.html"><img src="assets/img/logo/logoo.png" alt=""></a>
+                                <a href="#"><img src="assets/img/logo/logoo.png" alt=""></a>
                             </div>
                         </div>
                         <div class="col-xl-8 col-lg-8 col-md-8">
@@ -113,27 +113,7 @@ if ($_SESSION['status'] != "login") {
                         </div>
                     </div>
                 </div>
-                <div class="single-slider slider-height d-flex align-items-center" data-background="assets/img/hero/h1_hero.png">
-                    <div class="container">
-                        <div class="row d-flex align-items-center">
-                            <div class="col-lg-7 col-md-9 ">
-                                <div class="hero__caption">
-                                    <h1 data-animation="fadeInLeft" data-delay=".4s">We Collect<br> High Quality Leads</h1>
-                                    <p data-animation="fadeInLeft" data-delay=".6s">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravi.</p>
-                                    <!-- Hero-btn -->
-                                    <div class="hero__btn" data-animation="fadeInLeft" data-delay=".8s">
-                                        <a href="#" class="btn hero-btn"></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-5">
-                                <div class="hero__img d-none d-lg-block" data-animation="fadeInRight" data-delay="1s">
-                                    <img src="assets/img/hero/hero_right.png" alt="">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                
             </div>
         </div>
         <!-- Slider Area End-->
@@ -145,7 +125,7 @@ if ($_SESSION['status'] != "login") {
                 <div class="row d-flex justify-content-center">
                     <div class="col-lg-8">
                         <div class="section-tittle text-center">
-                            <h2>What You Can Do As Admin ?​</h2>
+                            <h2>What You Can Do As Admin </h2>
                         </div>
                     </div>
                 </div>
@@ -186,7 +166,7 @@ if ($_SESSION['status'] != "login") {
                                 <p>Lihat, Edit dan Hapus Data Kalori Yang Ada di Website HiHealth</p>
                             </div>
                             <div class="do-btn">
-                                <a href="../daftar makanan/index.php"><i class="ti-arrow-right"></i> ayo hitung</a>
+                                <a href="../daftar makanan/index.php"><i class="ti-arrow-right"></i> ayo lihat</a>
                             </div>
                         </div>
                     </div>

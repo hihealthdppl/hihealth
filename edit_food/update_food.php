@@ -9,23 +9,28 @@ $weight = $_POST['weight'];
 $calory = $_POST['calory'];
 $units = $_POST['units'];
 $jenis = $_POST['jenis'];
- 
-// update data ke database
-$data = mysqli_query($koneksi,"update makanan set food='$nama', berat='$weight', kalori='$calory', satuan='$units', jenis='$jenis' where id='$id'");
 
+if(($nama!=NULL) && ($weight!=NULL) && ($calory!=NULL) 
+    && ($units!=NULL)&& ($jenis!=NULL) && (($jenis=="makanan")||($jenis=="minuman")) && (($units=="gram")||($units=="ml")||($units=="sdm")) ){
+        
+        // update data ke database
+        $data = mysqli_query($koneksi,"update makanan set food='$nama', berat='$weight', kalori='$calory', satuan='$units', jenis='$jenis' where id='$id'");
 
-
-// mengalihkan halaman kembali ke index.php
-
-if($data > 0 ){
+        if($data > 0 ){
+            echo "
+                    <script>
+                    alert('Data berhasil diedit');
+                    document.location.href='../daftar makanan/index.php';
+                    </script>
+                ";
+        }
+}
+else{
     echo "
-            <script>
-            alert('Data berhasil diedit');
+        <script>
+            alert('Masih ada data yang kosong atau jenis/unit yang anda masukkan tidak sesuai');
             document.location.href='../daftar makanan/index.php';
-            </script>
+        </script>
         ";
 }
-
-
-
 ?>
